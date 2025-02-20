@@ -1,10 +1,10 @@
 import './App.css';
-import CardList from "./components/CardList";
+import Library from "./components/Library";
 
 function App() {
     return(
         <div className="App">
-            <CardList />
+            <Library />
         </div>
     )
 }
