@@ -1,8 +1,8 @@
 import CardList from "./CardList";
-function Library() {
-    const cardLists = [1,2,3,4]
+function Library({lists}) {
+    
     return(
-        cardLists.map((list) => <CardList />)
+        lists.map((list) => <CardList />)
     )
 }
 export default Library;
