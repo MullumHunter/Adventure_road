@@ -1,10 +1,14 @@
-import styles from './/styles/Card.module.css'
-function Card({name}) {
-    
+import styles from "./styles/Card.module.css";
+
+function Card({ skills }) {
+    console.log(skills)
     return (
         <div className={styles.Card}>
-            {name}
+                {Object.entries(skills).map(([key, value]) => (
+                    <h3>{key} : {value}</h3>
+                ))}
         </div>
-    )
+    );
 }
+
 export default Card;
