@@ -1,7 +1,7 @@
 export const library = [
     {
         id: 0,
-        name: "Первая",
+        nameLibrary: "Первая",
         items: 1,
         skills: [
             {
@@ -16,7 +16,7 @@ export const library = [
     },
     {
         id: 1,
-        name: "Вторая",
+        nameLibrary: "Вторая",
         items: 1,
         skills: [
             {

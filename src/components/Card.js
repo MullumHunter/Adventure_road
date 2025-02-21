@@ -4,9 +4,10 @@ function Card({ skills }) {
     console.log(skills)
     return (
         <div className={styles.Card}>
-                {Object.entries(skills).map(([key, value]) => (
-                    <h3>{key} : {value}</h3>
-                ))}
+                {
+                    Object.entries(skills).map(([key, value]) => (
+                    <h3>{key} : {value}</h3>))
+                }
         </div>
     );
 }

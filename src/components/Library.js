@@ -6,12 +6,11 @@ function Library({ itemsLibrary }) {
             {itemsLibrary.map((lib) => (
                 <CardList
                     key={lib.id}
-                    nameLib={lib.name}
+                    nameLib={lib.nameLibrary}
                     skills={lib.skills}
                 />
             ))}
         </>
     );
 }
-
 export default Library;
