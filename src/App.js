@@ -2,10 +2,32 @@ import './App.css';
 import Library from "./components/Library";
 
 function App() {
-    const cardLists = [1,2]
+    const libriry = [
+        {
+        id: 0,
+        name: "Первая",
+        items: 4
+        },
+        {
+            id: 1,
+            name: "Вторая",
+            items: 2
+        },
+        {
+            id: 2,
+            name: "Третья",
+            items: 1
+        },
+        {
+            id: 3,
+            name: "Четвертая",
+            items: 4
+        },
+    ]
+    console.log(libriry)
     return(
         <div className="App">
-            <Library lists={cardLists}/>
+            <Library itemsLibriry={libriry}/>
         </div>
     )
 }

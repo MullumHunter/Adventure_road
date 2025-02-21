@@ -1,5 +1,10 @@
 import styles from './/styles/Card.module.css'
-function Card() {
-    return <div className={styles.Card}>Card</div>
+function Card({name}) {
+    
+    return (
+        <div className={styles.Card}>
+            {name}
+        </div>
+    )
 }
 export default Card;

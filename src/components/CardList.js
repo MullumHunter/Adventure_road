@@ -1,12 +1,15 @@
 import Card from "./Card";
 import styles from './/styles/CardList.module.css'
 
-function CardList() {
+function CardList({cards, name}) {
+    console.log(cards)
     return (
         <div className={styles.CardList}>
-            <Card />
-            <Card />
-            <Card />
+            {
+                Array.from({ length: cards }).map((_, index) => (
+                    <Card name={name} />
+                ))
+            }
         </div>
     )
 }
