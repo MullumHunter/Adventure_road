@@ -1,8 +1,11 @@
 import CardList from "./CardList";
-function Library({lists}) {
+import styles from '../components/styles/Library.module.css'
+function Library({cards}) {
     
     return(
-        lists.map((list) => <CardList />)
+        <div className={styles.Library}>
+            <CardList cards={cards}/>
+        </div>
     )
 }
 export default Library;
