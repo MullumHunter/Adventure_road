@@ -1,7 +1,6 @@
 import styles from "./styles/Card.module.css";
 
 function Card({ skills }) {
-    console.log(skills)
     return (
         <div className={styles.Card}>
                 {

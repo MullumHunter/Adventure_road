@@ -1,4 +1,4 @@
-export const library = [
+export const cardsData = [
     {
         id: 0,
         nameLibrary: "Первая",
