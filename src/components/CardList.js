@@ -2,7 +2,6 @@ import Card from "./Card";
 import styles from './/styles/CardList.module.css'
 
 function CardList({cards, name}) {
-    console.log(cards)
     return (
         <div className={styles.CardList}>
             {

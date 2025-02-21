@@ -1,8 +1,7 @@
 import CardList from "./CardList";
-function Library({itemsLibriry}) {
-    console.log(itemsLibriry)
+function Library({itemsLibrary}) {
     return (
-        itemsLibriry.map((lib) => (
+        itemsLibrary.map((lib) => (
             <CardList cards={lib.items} name={lib.name}/>
         ))
     )
