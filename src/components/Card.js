@@ -3,13 +3,11 @@ import stylSkills from './styles/Skills.module.css'
 import Skill from "./Skill";
 
 function Card({id, nameCard, hard, img, ways, requirement,act,author,addition,cardNumber,year }) {
-    console.log({requirement})
     return (
-        
         <div className={styles.Card} style={{ backgroundImage: `url(${img})`}}>
             <div className={stylSkills.Skills}>
                 {requirement.map((requirement, index) =>
-                    <Skill img={requirement.img}/>
+                    <Skill key={index} img={requirement.img}/>
                 ) }
             </div>
             <div>

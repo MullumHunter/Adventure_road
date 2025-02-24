@@ -5,7 +5,7 @@ export  const cardCatalog =[
         
         nameCard:'Бандит',
         hard: 6,
-        img: '/img/cards/2.jpg',
+        img: '/img/cards/3.jpg',
         ways:[
             {
                 nameWayUp: "Предотвратить пожар",
