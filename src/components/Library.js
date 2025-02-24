@@ -6,8 +6,9 @@ function Library({ itemsLibrary }) {
             {itemsLibrary.map((lib) => (
                 <CardList
                     key={lib.id}
-                    nameLib={lib.nameLibrary}
-                    skills={lib.skills}
+                    id={lib.id}
+                    nameLibrary={lib.nameLibrary}
+                    cards={lib.cards}
                 />
             ))}
         </>

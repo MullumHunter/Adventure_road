@@ -1,5 +1,5 @@
 import {cardCatalog} from "./CardCatalog";
-export const cardsData = [
+export const listData = [
     {
         id: 0,
         nameLibrary: "Первая",

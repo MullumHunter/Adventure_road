@@ -1,35 +1,33 @@
-
-
 export const characteristicsData = [
     {
-        id: 1,
+        id: 0,
         name: 'dexterity',
-        img: '../styles/img/characteristics/alar.png'
+        img: '/img/characteristics/alar.png'
     },
     {
-        id:2 ,
+        id:1 ,
         name: 'wisdom',
-        img: '../styles/img/characteristics/mech.png'
+        img: '/img/characteristics/mech.png'
     },
     {
         id: 2 ,
         name: 'constitution',
-        img: '../styles/img/characteristics/mana.png'
+        img: '/img/characteristics/mana.png'
     },
     {
-        id: 2 ,
+        id: 3 ,
         name: 'charisma',
-        img: '../styles/img/characteristics/glass.png'
+        img: '/img/characteristics/glass.png'
     },
     {
-        id: 2 ,
+        id: 4 ,
         name: 'strength',
-        img: '../styles/img/characteristics/contact.png'
+        img: '/img/characteristics/contact.png'
     },
     {
-        id: 2 ,
+        id: 5 ,
         name: 'intelligence',
-        img: '../styles/img/characteristics/clever.png'
+        img: '/img/characteristics/clever.png'
     }
 ]
 
