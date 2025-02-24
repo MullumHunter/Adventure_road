@@ -1,9 +1,16 @@
 import styles from './/styles/Card.module.css'
-function Card({name}) {
+function Card(props) {
+    const{ imgCard, nameCard, skils} = props
     
     return (
         <div className={styles.Card}>
-            {name}
+           
+                
+                {/*{Array.from({length: skils.length}).map((_, index) => (*/}
+                {/*    <div>skill</div>*/}
+                {/*))}*/}
+                <h2>{nameCard}</h2>
+          
         </div>
     )
 }
