@@ -6,6 +6,7 @@ export  const cardCatalog =[
         skills:[
             characteristicsData.find(c => c.id === 1),
             characteristicsData.find(c => c.id === 3),
+            characteristicsData.find(c => c.id === 2),
         ],
         nameCard:'Бандит',
         title:'Не перед чем не отступится но получит желаемое или умрет'
