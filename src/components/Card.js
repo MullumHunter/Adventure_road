@@ -2,7 +2,7 @@ import styles from "./styles/Card.module.css";
 import stilSkills from './styles/Skills.module.css'
 import Skill from "./Skill";
 
-function Card({ nameCard, img, skills, title }) {
+function Card({ nameCard, img, skills, title, hard }) {
     console.log({skills})
     return (
         
