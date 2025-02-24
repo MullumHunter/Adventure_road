@@ -7,7 +7,7 @@ export  const cardCatalog =[
             characteristicsData[2],
         ],
         nameCard:'Бандит',
-        title:''
+        title:'Не перед чем не отступится но получит желаемое или умрет'
     },
     {
         img: '../styles/imj/cards/2.jpg',
@@ -16,7 +16,7 @@ export  const cardCatalog =[
             characteristicsData[4],
         ],
         nameCard:'Странник',
-        title:''
+        title:'Берется за любое дело что бы узнать что будет'
     },
     {
         img: '../styles/imj/cards/1.jpg',
@@ -25,6 +25,6 @@ export  const cardCatalog =[
             characteristicsData[3],
         ],
         nameCard:'Потеряшка',
-        title:''
+        title:'Ищет свой дом и готов защищать его изо всех сил'
     },
 ]
