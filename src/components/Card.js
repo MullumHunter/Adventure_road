@@ -1,20 +1,19 @@
 import styles from "./styles/Card.module.css";
-import stilSkills from './styles/Skills.module.css'
+import stylSkills from './styles/Skills.module.css'
 import Skill from "./Skill";
 
-function Card({ nameCard, img, skills, title, hard }) {
-    console.log({skills})
+function Card({id, nameCard, hard, img, ways, requirement,act,author,addition,cardNumber,year }) {
+    console.log({requirement})
     return (
         
         <div className={styles.Card} style={{ backgroundImage: `url(${img})`}}>
-            <div className={stilSkills.Skills}>
-                {skills.map((skill, index) =>
-                    <Skill img={skill.img}/>
+            <div className={stylSkills.Skills}>
+                {requirement.map((requirement, index) =>
+                    <Skill img={requirement.img}/>
                 ) }
             </div>
             <div>
                 <h2>{nameCard}</h2>
-                <p>{title}</p>
             </div>
         </div>
     );

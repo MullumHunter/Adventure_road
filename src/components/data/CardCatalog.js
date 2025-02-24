@@ -27,6 +27,5 @@ export  const cardCatalog =[
         addition: "",
         cardNumber: "042",
         year: 2019
-        
     },
 ];
