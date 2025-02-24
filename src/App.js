@@ -1,6 +1,6 @@
 import './App.css';
 import Library from "./components/Library";
-import {cardsData} from './components/data/CardData'
+import {cardsData} from './components/data/ListData'
 import {useState} from "react";
 import Input from "./components/Input";
 
