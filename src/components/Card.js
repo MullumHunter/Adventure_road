@@ -9,7 +9,7 @@ function Card({id, nameCard, hard, img, ways, requirement,act,author,addition,ca
         <div className={styles.Card} style={{ backgroundImage: `url(${img})`}}>
             
             <Way title={ways[0].nameWayUp}/>
-            <Challenge title={nameCard}/>
+            <Challenge title={nameCard} runes={requirement}/>
             <Way title={ways[1].nameWayDown}/>
             
         </div>

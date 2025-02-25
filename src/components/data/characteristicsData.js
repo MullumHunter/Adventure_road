@@ -5,7 +5,7 @@ export const characteristicsData = [
         img: '/img/characteristics/alar.png'
     },
     {
-        id:1 ,
+        id: 1 ,
         name: 'wisdom',
         img: '/img/characteristics/mech.png'
     },
@@ -28,6 +28,11 @@ export const characteristicsData = [
         id: 5 ,
         name: 'intelligence',
         img: '/img/characteristics/clever.png'
+    },
+    {
+        id: 6 ,
+        name: 'intellect',
+        img: '/img/runes/intellect.png'
     }
 ]
 

@@ -10,8 +10,8 @@ export  const cardCatalog =[
             {
                 nameWayUp: "Предотвратить пожар",
                 prize: [
-                    characteristicsData.find(c => c.id === 1),
-                    characteristicsData.find(c => c.id === 3),
+                    characteristicsData.find(c => c.id === 6),
+                    characteristicsData.find(c => c.id === 6),
                 ]
             },
             {
@@ -19,8 +19,8 @@ export  const cardCatalog =[
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 1),
-            characteristicsData.find(c => c.id === 3),
+            characteristicsData.find(c => c.id === 6),
+            characteristicsData.find(c => c.id === 6),
         ],
         act: 3,
         author: "Артем Демура",
