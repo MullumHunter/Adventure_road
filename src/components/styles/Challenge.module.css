@@ -1,3 +1,4 @@
+
 .Chain {
     display: flex;
     flex-direction: column;
@@ -6,10 +7,13 @@
     position: relative;
     height: 100%;
     width: 30px;
+    background-image: url("/public/img/chain/fabricMax.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: top ;
 }
 
 .Challenge {
-    background: #000;
     font-size: 12px;
     position: absolute;
     z-index: 1;
@@ -18,7 +22,7 @@
     padding-right: 100px;
     top: -10px;
     transform: rotate(-90deg) translateX(-50%);
-
+    padding-left: 5px;
 }
 .Rune{
     display: flex;
@@ -30,5 +34,4 @@
 .Hard {
     width: 25px;
     padding-top: 3px;
-
 }

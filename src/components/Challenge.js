@@ -5,6 +5,7 @@ import Chain from "./Chain";
 function Challenge({title}) {
     return(
         <>
+            
             <div className={styles.Chain}>
                 <div className={styles.Rune}>
                     <div className={styles.Hard}>
@@ -15,7 +16,9 @@ function Challenge({title}) {
                     <Chain/>
                     <Rune/>
                 </div>
-                <div className={styles.Challenge}>Danke schön</div>
+                <div className={styles.Challenge}>
+                    Danke schön
+                </div>
             </div>
         </>
     )
