@@ -12,6 +12,13 @@ function CardList({ id, cards, nameLibrary }) {
                       requirement={card.requirement}
                       img={card.img}
                       id={card.id}
+                      hard={card.hard}
+                      ways={card.ways}
+                      act={card.act}
+                      author={card.author}
+                      addition={card.addition}
+                      cardNumber={card.cardNumber}
+                      year={card.year}
                       />
                 ))
             }
