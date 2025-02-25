@@ -4,4 +4,5 @@
     width: 100%;
     text-align: start;
     padding-left: 8px;
+    z-index: 3;
 }
