@@ -1,17 +1,17 @@
 import styles from "./styles/Card.module.css";
 import Way from "./Way";
-import Challenge from "./Challenge";
+import Requirements from "./Requirements";
 
 function Card({id, nameCard, hard, img, ways, requirement,act,author,addition,cardNumber,year }) {
     console.log(ways[0].nameWayUp)
     console.log(ways[0].nameWayDown)
     return (
         <div className={styles.Card} style={{ backgroundImage: `url(${img})`}}>
+            <img className={styles.Fabric} src='/img/chain/fabricMax5.png' alt="fabric"/>
             
-            <Way title={ways[0].nameWayUp}/>
-            <Challenge title={nameCard} runes={requirement}/>
-            <Way title={ways[1].nameWayDown}/>
-            
+            <Way className={styles.WayUp} title={ways[0].nameWayUp}/>
+            <Requirements title={nameCard} runes={requirement}/>
+            <Way className={styles.WayDown} title={ways[1].nameWayDown}/>
         </div>
     );
 }

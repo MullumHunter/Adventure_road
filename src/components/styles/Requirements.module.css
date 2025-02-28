@@ -1,0 +1,24 @@
+.Container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Chain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 9px;
+    position: relative;
+    z-index: 2;
+}
+.Challenge {
+    margin-top: 5px;
+    font-size: 8px;
+    display: inline-block;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    direction: ltr;
+    text-orientation: mixed;
+    transform: rotate(180deg) translateX(1px);
+}

@@ -1,8 +1,5 @@
 .Way {
-    background: #000;
-    font-size: 12px;
+    font-size: 8px;
     width: 100%;
     text-align: start;
-    padding-left: 8px;
-    z-index: 3;
 }
