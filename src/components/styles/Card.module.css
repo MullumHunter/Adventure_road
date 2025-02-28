@@ -13,6 +13,7 @@
     box-shadow: 3px 8px 10px 0 rgba(0, 0, 0, 0.7);
     overflow: hidden;
     position: relative;
+    padding-right: 10px;
 }
 .WayUp {
 }

@@ -1,5 +1,13 @@
 .Way {
+    padding: 6px 0 8px 12px;
     font-size: 8px;
-    width: 100%;
+    width: 100% ;
     text-align: start;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    background-position: 0 1px;
+    position: relative;
+    z-index: 2;
 }

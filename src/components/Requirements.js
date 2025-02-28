@@ -2,7 +2,7 @@ import Hard from "./Hard";
 import Chain from "./Chain";
 import Rune from "./Rune";
 import style from './styles/Requirements.module.css'
-function Requirements() {
+function Requirements({title}) {
     return (
         <div className={style.Container}>
             <div className={style.Chain}>
@@ -13,7 +13,7 @@ function Requirements() {
                 <Rune/>
                 
                 <div className={style.Challenge}>
-                   345 we fwef w sss
+                    {title}
                 </div>
             </div>
         </div>
