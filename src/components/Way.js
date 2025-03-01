@@ -1,16 +1,17 @@
 import style from './styles/Way.module.css'
 import Rune from "./Rune";
 function Way({title, attributes, className }) {
+    console.log({className})
     return(
-        <div className={style.Container}>
-            <div  className={`${style.Way} ${className}`} style={{ backgroundImage: `url(/img/chain/paperWay3.png)`}}>
-                <p>{title}</p>
+        <>
+            <div  className={style.Way} style={{ backgroundImage: `url(/img/chain/paperWay6.png)`}}>
+                <p className={style.Text}>{title}</p>
+                <div className={style.Attributes}>
+                    <Rune className="RuneWay"/>
+                    <Rune className="RuneWay"/>
+                </div>
             </div>
-            <div className={style.Attributes}>
-                <Rune className={style.RuneWay}/>
-                <Rune className={style.RuneWay}/>
-            </div>
-        </div>
+        </>
     )
 }
 

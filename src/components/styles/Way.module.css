@@ -1,5 +1,4 @@
 .Way {
-    padding: 8px 0 8px 12px;
     font-size: 8px;
     width: 100% ;
     text-align: start;
@@ -7,27 +6,18 @@
     background-repeat: no-repeat;
     color: black;
     font-weight: bold;
-    background-position: 0 1px;
-    position: relative;
+    background-position: center;
     z-index: 2;
-    border-radius: 0 8px 8px 0;
-}
-.Container {
-    margin-top: 4px;
-    position: relative;
-    width: 100%;
+    border-radius: 0 18px 18px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .Attributes {
-    position: absolute;
-    height: 100%;
     display: flex;
     align-items: center;
     gap: 1px;
-    right: -4px;
-    top: 0;
-    z-index: 2;
 }
-.RuneWay {
-    width: 20px;
-    height: 21px;
+.Text {
+    padding: 10px 0 10px 12px;
 }

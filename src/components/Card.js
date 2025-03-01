@@ -8,9 +8,9 @@ function Card({id, nameCard, hard, img, ways, requirement,act,author,addition,ca
         <div className={styles.Card} style={{ backgroundImage: `url(${img})`}}>
             <img className={styles.Fabric} src='/img/chain/fabricMax5.png' alt="fabric"/>
             
-            <Way className={styles.WayUp} title={ways[0].nameWayUp}/>
+            <Way title={ways[0].nameWayUp}/>
             <Requirements title={nameCard} runes={requirement}/>
-            <Way className={styles.WayDown} title={ways[1].nameWayDown}/>
+            <Way title={ways[1].nameWayDown}/>
         </div>
     );
 }
