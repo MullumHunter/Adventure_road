@@ -1,4 +1,6 @@
 import {characteristicsData} from "./characteristicsData";
+import {prizeData} from "./prizeData";
+
 export  const cardCatalog =[
     {
         id: 0,
@@ -10,8 +12,8 @@ export  const cardCatalog =[
             {
                 nameWayUp: "Предотвратить пожар",
                 prize: [
-                    characteristicsData.find(c => c.id === 6),
-                    characteristicsData.find(c => c.id === 6),
+                    prizeData.find(c => c.id === 1),
+                    prizeData.find(c => c.id === 2),
                 ]
             },
             {
@@ -38,8 +40,8 @@ export  const cardCatalog =[
             {
                 nameWayUp: "Предотвратить пожар",
                 prize: [
-                    characteristicsData.find(c => c.id === 1),
-                    characteristicsData.find(c => c.id === 3),
+                    prizeData.find(c => c.id === 7),
+                    prizeData.find(c => c.id === 8),
                 ]
             },
             {
@@ -66,8 +68,8 @@ export  const cardCatalog =[
             {
                 nameWayUp: "Предотвратить пожар",
                 prize: [
+                    characteristicsData.find(c => c.id === 2),
                     characteristicsData.find(c => c.id === 1),
-                    characteristicsData.find(c => c.id === 3),
                 ]
             },
             {

@@ -3,7 +3,6 @@ import Way from "./Way";
 import Requirements from "./Requirements";
 
 function Card({id, nameCard, hard, img, ways, requirement,act,author,addition,cardNumber,year }) {
-    console.log({id, nameCard, hard, img, ways, requirement,act,author,addition,cardNumber,year })
    
     return (
         <div className={styles.Card} style={{ backgroundImage: `url(${img})`}}>

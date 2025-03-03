@@ -17,17 +17,17 @@ export const prizeData = [
     {
         id: 3,
         name: "dark_way2",
-        img: '/img/triumph_points/dark_way2.png'
+        img: '/img/triumph_points/dark_way1.png'
     },
     {
         id: 4,
         name: "dark_way3",
-        img: '/img/triumph_points/dark_way3.png'
+        img: '/img/triumph_points/dark_way1.png'
     },
     {
         id: 5,
         name: "dark_way4",
-        img: '/img/triumph_points/dark_way4.png'
+        img: '/img/triumph_points/dark_way1.png'
     },
     {
         id: 6,
@@ -47,7 +47,7 @@ export const prizeData = [
     {
         id: 9,
         name: "light_way2",
-        img: '/img/triumph_points/light_way2.png'
+        img: '/img/triumph_points/light_way1.png'
     },
     {
         id: 10,
@@ -57,7 +57,6 @@ export const prizeData = [
     {
         id: 11,
         name: "light_way4",
-        img: '/img/triumph_points/light_way4.png'
+        img: '/img/triumph_points/light_way3.png'
     },
-    
 ]
