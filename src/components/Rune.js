@@ -3,7 +3,7 @@ function Rune({className}) {
     
     return (
             <img className={`${styles.Rune} ${styles[className]}`}
-                        src="/img/history_icons/malefactor.png"
+                        src="/img/runes/wisdom.png"
                         alt="wisdom"
             />
             )

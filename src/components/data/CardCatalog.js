@@ -1,5 +1,5 @@
 import {characteristicsData} from "./characteristicsData";
-import {prizeData} from "./prizeData";
+import {prizeData} from "./PrizeData";
 
 export  const cardCatalog =[
     {

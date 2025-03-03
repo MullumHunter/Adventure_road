@@ -2,22 +2,29 @@
     font-size: 8px;
     width: 100% ;
     text-align: start;
-    background-size: cover ;
+    background-size: 100% 80%;
     background-repeat: no-repeat;
+    background-position: center;
     color: black;
     font-weight: bold;
-    background-position: center;
     z-index: 2;
     border-radius: 0 18px 18px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 6px;
 }
 .Attributes {
     display: flex;
     align-items: center;
     gap: 1px;
+    box-sizing: content-box;
+    flex-shrink: 0;
 }
 .Text {
-    padding: 10px 0 10px 12px;
+    padding: 5px 5px 5px 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
