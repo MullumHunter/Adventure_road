@@ -1,12 +1,13 @@
 import {characteristicsData} from "./characteristicsData";
 import {prizeData} from "./PrizeData";
+import {hardData} from "./HardData.js";
 
 export  const cardCatalog =[
     {
         id: 0,
         
         nameCard:'Бандит',
-        hard: 6,
+        hard: hardData.find(hard => hard.name === 3),
         img: '/img/cards/3.jpg',
         ways:[
             {
@@ -17,7 +18,11 @@ export  const cardCatalog =[
                 ]
             },
             {
-                nameWayDown: "Убить драккуса"
+                nameWayDown: "Убить драккуса",
+                prize: [
+                    prizeData.find(c => c.id === 3),
+                    prizeData.find(c => c.id === 7),
+                ]
             }
         ],
         requirement: [
@@ -31,59 +36,35 @@ export  const cardCatalog =[
         year: 2019
     },
     {
-        id: 1,
+        id: 0,
         
-        nameCard:'Бандит',
-        hard: 6,
+        nameCard:'Ловчий беглец',
+        hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/1.jpg',
         ways:[
             {
-                nameWayUp: "Предотвратить пожар",
+                nameWayUp: "Увидеть мир пока жив",
                 prize: [
-                    prizeData.find(c => c.id === 7),
-                    prizeData.find(c => c.id === 8),
+                    prizeData.find(c => c.id === 0),
+                    prizeData.find(c => c.id === 6),
                 ]
             },
             {
-                nameWayDown: "Убить драккуса"
+                nameWayDown: "Принять себя",
+                prize: [
+                    prizeData.find(c => c.id === 2),
+                    prizeData.find(c => c.id === 1),
+                ]
             }
         ],
         requirement: [
+            characteristicsData.find(c => c.id === 2),
             characteristicsData.find(c => c.id === 1),
-            characteristicsData.find(c => c.id === 3),
         ],
         act: 3,
         author: "Артем Демура",
         addition: "",
         cardNumber: "042",
         year: 2019
-    },
-    {
-        id: 2,
-        
-        nameCard:'Бандит',
-        hard: 6,
-        img: '/img/cards/3.jpg',
-        ways:[
-            {
-                nameWayUp: "Предотвратить пожар",
-                prize: [
-                    characteristicsData.find(c => c.id === 2),
-                    characteristicsData.find(c => c.id === 1),
-                ]
-            },
-            {
-                nameWayDown: "Убить драккуса"
-            }
-        ],
-        requirement: [
-            characteristicsData.find(c => c.id === 1),
-            characteristicsData.find(c => c.id === 3),
-        ],
-        act: 3,
-        author: "Артем Демура",
-        addition: "",
-        cardNumber: "042",
-        year: 2019
-    },
+    }
 ];
