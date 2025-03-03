@@ -1,0 +1,7 @@
+.Attributes {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    box-sizing: content-box;
+    flex-shrink: 0;
+}

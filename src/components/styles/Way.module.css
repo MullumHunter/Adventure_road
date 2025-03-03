@@ -14,13 +14,7 @@
     align-items: center;
     margin-top: 6px;
 }
-.Attributes {
-    display: flex;
-    align-items: center;
-    gap: 1px;
-    box-sizing: content-box;
-    flex-shrink: 0;
-}
+
 .Text {
     padding: 5px 5px 5px 12px;
     width: 100%;
