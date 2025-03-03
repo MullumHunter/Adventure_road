@@ -29,7 +29,7 @@ export  const cardCatalog =[
         year: 2019
     },
     {
-        id: 0,
+        id: 1,
         
         nameCard:'Бандит',
         hard: 6,
@@ -57,7 +57,7 @@ export  const cardCatalog =[
         year: 2019
     },
     {
-        id: 0,
+        id: 2,
         
         nameCard:'Бандит',
         hard: 6,
