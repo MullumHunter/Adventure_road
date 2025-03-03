@@ -5,8 +5,18 @@ export const hardData = [
         img: '/img/hards/3.png'
     },
     {
-        id: 0,
+        id: 1,
         name: 4,
         img: '/img/hards/4.png'
+    },
+    {
+        id: 2,
+        name: 5,
+        img: '/img/hards/5.png'
+    },
+    {
+        id: 3,
+        name: 6,
+        img: '/img/hards/6.png'
     }
 ]

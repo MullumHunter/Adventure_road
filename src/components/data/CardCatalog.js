@@ -39,7 +39,7 @@ export  const cardCatalog =[
         id: 0,
         
         nameCard:'Ловчий беглец',
-        hard: hardData.find(hard => hard.name === 4),
+        hard: hardData.find(hard => hard.name === 5),
         img: '/img/cards/1.jpg',
         ways:[
             {
