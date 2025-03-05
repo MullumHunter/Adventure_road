@@ -1,9 +1,8 @@
 import styles from './styles/Rune.module.css'
-function Rune({className}) {
-    
+function Rune({className, rune}) {
     return (
             <img className={`${styles.Rune} ${styles[className]}`}
-                        src="/img/runes/wisdom.png"
+                        src={rune}
                         alt="wisdom"
             />
             )

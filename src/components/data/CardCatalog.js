@@ -26,8 +26,8 @@ export  const cardCatalog =[
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 6),
-            characteristicsData.find(c => c.id === 6),
+            characteristicsData.find(c => c.id === 0),
+            characteristicsData.find(c => c.id === 2),
         ],
         act: 3,
         author: "Артем Демура",
