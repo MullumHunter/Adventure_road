@@ -47,7 +47,7 @@ export  const cardCatalog =[
             {
                 nameWayUp: "Увидеть мир пока жив",
                 prize: [
-                    prizeData.find(c => c.id === 1),
+                    prizeData.find(c => c.id === 7),
                     prizeData.find(c => c.id === 2),
                 ]
             },

@@ -12,7 +12,7 @@ function Attributes({attributes}) {
                     case "rune": return <Rune className="RuneWay" rune={attribute.img}/>;
                     case "card": return <WayCard img={attribute.img}/>;
                     case "way": return <WayItem img={attribute.img}/>;
-                    case "history": return <HistoryItem/>
+                    case "history": return <HistoryItem img={attribute.img}/>
                     default:
                 }
             })}

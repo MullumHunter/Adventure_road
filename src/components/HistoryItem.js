@@ -1,7 +1,7 @@
 import styles from './styles/HistoryItem.module.css'
-function HistoryItem() {
+function HistoryItem({img}) {
     return(
-        <img className={styles.Item} src='/img/history_icons/belief.png' alt="history"/>
+        <img className={styles.Item} src={img} alt="history"/>
     )
 }
 export default HistoryItem;
