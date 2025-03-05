@@ -10,7 +10,7 @@ function Attributes({attributes}) {
             {attributes.map((attribute,_) => {
                 switch (attribute.type) {
                     case "rune": return <Rune className="RuneWay" rune={attribute.img}/>;
-                    case "card": return <WayCard/>;
+                    case "card": return <WayCard img={attribute.img}/>;
                     case "way": return <WayItem img={attribute.img}/>;
                     case "history": return <HistoryItem/>
                     default:
