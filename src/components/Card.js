@@ -9,7 +9,7 @@ function Card({id, nameCard, hard, img, ways, requirement,act,author,addition,ca
             
             <Way title={ways[0].nameWayUp} attributes={ways[0].prize}/>
             <Requirements title={nameCard} runes={requirement} hard={hard}/>
-            <Way title={ways[1].nameWayDown}/>
+            <Way title={ways[1].nameWayDown} attributes={ways[1].prize}/>
         </div>
     );
 }

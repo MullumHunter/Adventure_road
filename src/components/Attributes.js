@@ -13,6 +13,7 @@ function Attributes({attributes}) {
                     case "rune": return <Rune className="RuneWay"/>;
                     case "card": return <WayCard/>;
                     case "way": return <WayItem/>;
+                    case "history": return <HistoryItem/>
                     default:
                 }
             })}

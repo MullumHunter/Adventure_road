@@ -20,8 +20,8 @@ export  const cardCatalog =[
             {
                 nameWayDown: "Убить драккуса",
                 prize: [
-                    prizeData.find(c => c.id === 3),
-                    prizeData.find(c => c.id === 7),
+                    prizeData.find(c => c.id === 8),
+                    prizeData.find(c => c.id === 9),
                 ]
             }
         ],
@@ -45,15 +45,15 @@ export  const cardCatalog =[
             {
                 nameWayUp: "Увидеть мир пока жив",
                 prize: [
-                    prizeData.find(c => c.id === 0),
-                    prizeData.find(c => c.id === 6),
+                    prizeData.find(c => c.id === 1),
+                    prizeData.find(c => c.id === 2),
                 ]
             },
             {
                 nameWayDown: "Принять себя",
                 prize: [
-                    prizeData.find(c => c.id === 2),
-                    prizeData.find(c => c.id === 1),
+                    prizeData.find(c => c.id === 8),
+                    prizeData.find(c => c.id === 9),
                 ]
             }
         ],
