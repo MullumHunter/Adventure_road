@@ -10,7 +10,7 @@ function Attributes({attributes}) {
         <div className={styles.Attributes}>
             {attributes.map((attribute,_) => {
                 switch (attribute.type) {
-                    case "rune": return <Rune className="RuneWay"/>;
+                    case "rune": return <Rune className="RuneWay" rune={attribute.img}/>;
                     case "card": return <WayCard/>;
                     case "way": return <WayItem/>;
                     case "history": return <HistoryItem/>
