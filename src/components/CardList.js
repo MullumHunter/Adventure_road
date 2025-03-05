@@ -14,11 +14,7 @@ function CardList({ id, cards, nameLibrary }) {
                       id={card.id}
                       hard={card.hard}
                       ways={card.ways}
-                      act={card.act}
-                      author={card.author}
-                      addition={card.addition}
-                      cardNumber={card.cardNumber}
-                      year={card.year}
+                      footer={card.footer}
                       />
                 ))
             }

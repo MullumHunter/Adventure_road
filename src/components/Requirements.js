@@ -4,7 +4,6 @@ import Rune from "./Rune";
 import style from './styles/Requirements.module.css'
 import {logDOM} from "@testing-library/dom";
 function Requirements({title ,runes, hard}) {
-    console.log(runes)
     return (
         <div className={style.Container}>
             <div className={style.Chain}>

@@ -2,6 +2,7 @@ import {characteristicsData} from "./characteristicsData";
 import {prizeData} from "./PrizeData";
 import {hardData} from "./HardData.js";
 import {historyItem} from "./historyItem";
+import {addition} from "./Addition";
 
 
 export  const cardCatalog =[
@@ -31,11 +32,13 @@ export  const cardCatalog =[
             characteristicsData.find(c => c.id === 0),
             characteristicsData.find(c => c.id === 2),
         ],
-        act: 3,
-        author: "Артем Демура",
-        addition: "",
-        cardNumber: "042",
-        year: 2019
+        footer: {
+            act: 3,
+            author: "Артем Демура",
+            addition: addition.find(c => c.id === 0),
+            cardNumber: "042",
+            year: 2019,
+        }
     },
     {
         id: 0,
@@ -63,10 +66,12 @@ export  const cardCatalog =[
             characteristicsData.find(c => c.id === 4),
             characteristicsData.find(c => c.id === 1),
         ],
-        act: 3,
-        author: "Артем Демура",
-        addition: "",
-        cardNumber: "042",
-        year: 2019
+        footer: {
+            act: 1,
+            author: "Артем Демура",
+            addition: addition.find(c => c.id === 1),
+            cardNumber: "042",
+            year: 2019
+        }
     }
 ];
