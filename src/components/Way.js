@@ -1,12 +1,12 @@
 import style from './styles/Way.module.css'
 import Attributes from "./Attributes";
+import WayPaper from "./WayPaper";
 function Way({title, attributes }) {
     return(
         <>
-            <div className={style.Way}  style={{backgroundImage: `url(/img/chain/paperWay7.png)`}}>
-                <p className={style.Text}>{title}
+            <div className={style.Way}>
+                <WayPaper title={title}/>
                     <Attributes attributes={attributes}/>
-                </p>
             </div>
         </>
     )
