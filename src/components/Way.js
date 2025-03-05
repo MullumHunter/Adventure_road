@@ -6,7 +6,7 @@ function Way({title, attributes }) {
         <>
             <div className={style.Way}>
                 <WayPaper title={title}/>
-                    <Attributes attributes={attributes}/>
+                <Attributes attributes={attributes}/>
             </div>
         </>
     )
