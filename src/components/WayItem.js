@@ -1,7 +1,7 @@
 import styles from './styles/WayItem.module.css'
-function WayItem() {
+function WayItem({img}) {
     return(
-        <img className={styles.Item} src='/img/triumph_points/light_way1.png' alt='way'/>
+        <img className={styles.Item} src={img} alt='way'/>
     )
 }
 export default WayItem;

@@ -22,8 +22,8 @@ export  const cardCatalog =[
             {
                 nameWayDown: "Убить драккуса",
                 prize: [
-                    prizeData.find(c => c.id === 8),
-                    prizeData.find(c => c.id === 9),
+                    characteristicsData.find(c => c.id === 0),
+                    prizeData.find(c => c.id === 3),
                 ]
             }
         ],
@@ -60,7 +60,7 @@ export  const cardCatalog =[
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 2),
+            characteristicsData.find(c => c.id === 4),
             characteristicsData.find(c => c.id === 1),
         ],
         act: 3,
