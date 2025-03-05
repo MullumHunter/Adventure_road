@@ -48,10 +48,10 @@ export  const cardCatalog =[
         img: '/img/cards/1.jpg',
         ways:[
             {
-                nameWayUp: "Увидеть мир пока жив",
+                nameWayUp: "Увидеть мир пока жив, и жить пока не увидишь мир",
                 prize: [
-                    prizeData.find(c => c.id === 7),
                     prizeData.find(c => c.id === 2),
+                    prizeData.find(c => c.id === 7),
                 ]
             },
             {
