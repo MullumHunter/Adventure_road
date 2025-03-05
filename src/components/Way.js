@@ -5,7 +5,7 @@ function Way({title, attributes }) {
         <>
             <div className={style.Way}  style={{backgroundImage: `url(/img/chain/paperWay7.png)`}}>
                 <p className={style.Text}>{title}
-                    <Attributes/>
+                    <Attributes attributes={attributes}/>
                 </p>
             </div>
         </>
