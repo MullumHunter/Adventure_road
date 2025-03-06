@@ -7,7 +7,8 @@ import {addition} from "../Addition";
 export const trialsCard_ACT_1 = [
     {
         id: 0,
-
+        
+        additional_complexity: false,
         nameCard:'Магическое испытание',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/magical_tеst.png',
@@ -42,6 +43,7 @@ export const trialsCard_ACT_1 = [
     {
         id: 1,
         
+        additional_complexity: false,
         nameCard:'Кошелек или жизнь',
         hard: hardData.find(hard => hard.name === 3),
         img: '/img/cards/trials_act_1/money_or_life.png',
@@ -75,6 +77,7 @@ export const trialsCard_ACT_1 = [
     {
         id: 2,
         
+        additional_complexity: true,
         nameCard:'Академия',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/academy.png',
