@@ -14,7 +14,7 @@ export const trialsCard_ACT_1 = [
         ways:[
             {
                 nameWayUp: "Склонность к светлой магии",
-                additional_complexity: false,
+                additional: false,
                 prize: [
                     historyItem.find(c => c.id === 2),
                     characteristicsData.find(c => c.id === 5),
@@ -22,7 +22,7 @@ export const trialsCard_ACT_1 = [
             },
             {
                 nameWayDown: "Талант в темных искусствах",
-                additional_complexity: false,
+                additional: false,
                 prize: [
                     prizeData.find(c => c.id === 1),
                     characteristicsData.find(c => c.id === 3),
@@ -50,14 +50,14 @@ export const trialsCard_ACT_1 = [
         ways:[
             {
                 nameWayUp: "Усмирить грабителя",
-                additional_complexity: false,
+                additional: false,
                 prize: [
                     characteristicsData.find(c => c.id === 3),
                 ]
             },
             {
                 nameWayDown: "Защитить свою семью",
-                additional_complexity: true,
+                additional: true,
                 prize: [
                     historyItem.find(c => c.id === 1),
                     characteristicsData.find(c => c.id === 2),
@@ -85,7 +85,7 @@ export const trialsCard_ACT_1 = [
         ways:[
             {
                 nameWayUp: "Преуспеть в учебе",
-                additional_complexity: false,
+                additional: false,
                 prize: [
                     historyItem.find(c => c.id === 2),
                     characteristicsData.find(c => c.id === 5),
@@ -93,7 +93,7 @@ export const trialsCard_ACT_1 = [
             },
             {
                 nameWayDown: "Усвоить важный урок",
-                additional_complexity: false,
+                additional: false,
                 prize: [
                     prizeData.find(c => c.id === 7),
                     characteristicsData.find(c => c.id === 1),

@@ -1,7 +1,6 @@
 import styles from './styles/FooterCard.module.css'
 
 function FooterCard({attributes}) {
-    console.log(attributes.addition)
     const roman = {
         1: "I",
         2: "II",
