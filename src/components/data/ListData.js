@@ -6,6 +6,8 @@ export const listData = [
         nameLibrary: "Первая",
         cards: [
             trialsCard_ACT_1[0],
+            trialsCard_ACT_1[1],
+            trialsCard_ACT_1[2],
         ]
     },
 ];

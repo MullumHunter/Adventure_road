@@ -33,9 +33,76 @@ export const trialsCard_ACT_1 = [
         ],
         footer: {
             act: 1,
-            author: "Шон робинсон",
+            author: "Шон Робинсон",
             addition: addition.find(c => c.id === 0),
             cardNumber: "067",
+            year: 2018,
+        }
+    },
+    {
+        id: 1,
+        
+        nameCard:'Кошелек или жизнь',
+        hard: hardData.find(hard => hard.name === 3),
+        img: '/img/cards/trials_act_1/money_or_life.png',
+        ways:[
+            {
+                nameWayUp: "Усмирить грабителя",
+                prize: [
+                    characteristicsData.find(c => c.id === 3),
+                ]
+            },
+            {
+                nameWayDown: "Защитить свою семью",
+                prize: [
+                    historyItem.find(c => c.id === 1),
+                    characteristicsData.find(c => c.id === 2),
+                ]
+            }
+        ],
+        requirement: [
+            characteristicsData.find(c => c.id === 2),
+            characteristicsData.find(c => c.id === 3),
+        ],
+        footer: {
+            act: 1,
+            author: "Шон Турлоу",
+            addition: addition.find(c => c.id === 0),
+            cardNumber: "065",
+            year: 2018,
+        }
+    },
+    {
+        id: 2,
+        
+        nameCard:'Академия',
+        hard: hardData.find(hard => hard.name === 4),
+        img: '/img/cards/trials_act_1/academy.png',
+        ways:[
+            {
+                nameWayUp: "Преуспеть в учебе",
+                prize: [
+                    historyItem.find(c => c.id === 2),
+                    characteristicsData.find(c => c.id === 5),
+                ]
+            },
+            {
+                nameWayDown: "Усвоить важный урок",
+                prize: [
+                    prizeData.find(c => c.id === 7),
+                    characteristicsData.find(c => c.id === 1),
+                ]
+            }
+        ],
+        requirement: [
+            characteristicsData.find(c => c.id === 5),
+            characteristicsData.find(c => c.id === 1),
+        ],
+        footer: {
+            act: 1,
+            author: "Адам Дж. Мартин",
+            addition: addition.find(c => c.id === 0),
+            cardNumber: "066",
             year: 2018,
         }
     }
