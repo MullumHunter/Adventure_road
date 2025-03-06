@@ -33,7 +33,7 @@ export const characteristicsData = [
         type: "rune",
         id: 5 ,
         name: 'intelligence',
-        img: '/img/runes/intelligence.png'
+        img: '/img/runes/intellect.png'
     },
 ]
 
