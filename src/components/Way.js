@@ -1,6 +1,7 @@
 import style from './styles/Way.module.css'
 import Attributes from "./Attributes";
 import WayPaper from "./WayPaper";
+import AdditionalComplexity from "./AdditionalComplexity";
 function Way({title, attributes }) {
     const isLongTitle = title.length > 25;
     return(

@@ -3,7 +3,7 @@ import Way from "./Way";
 import Requirements from "./Requirements";
 import FooterCard from "./FooterCard";
 
-function Card({id, nameCard, hard, img, ways, requirement, footer }) {
+function Card({id, nameCard, hard, img, ways, requirement, footer}) {
     console.log(footer)
     return (
         <div className={styles.Card} style={{ backgroundImage: `url(${img})`}}>
