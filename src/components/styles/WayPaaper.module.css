@@ -9,11 +9,10 @@
     z-index: 1;
     margin-right: 10px;
     border-radius: 5px ;
-
 }
 .Text {
     max-width: 25ch;
-    padding-left: 12px;
+    padding-left: 6px;
     overflow: hidden;
     display: flex;
     align-items: center;
