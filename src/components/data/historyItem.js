@@ -32,13 +32,13 @@ export const historyItem=[
     {
         id:5,
         type: "history",
-        name: "noble",
+        name: "благородный",
         img: '/img/history_icons/noble.png' //родословная
     },
     {
         id:6,
         type: "history",
         name: "music",
-        img: '/img/history_icons/music.png' //родословная
+        img: '/img/history_icons/music.png' //музыка
     },
 ]

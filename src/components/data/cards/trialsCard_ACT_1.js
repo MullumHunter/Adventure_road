@@ -152,6 +152,42 @@ export const trialsCard_ACT_1 = [
     {
         id: 4,
         
+        nameCard:'Призыв к оружию',
+        hard: hardData.find(hard => hard.name === 4),
+        img: '/img/cards/trials_act_1/call_to_arms.png',
+        ways:[
+            {
+                nameWayUp: "вступить в королевскую армию",
+                additional: false,
+                prize: [
+                    prizeData.find(c => c.id === 8),
+                    characteristicsData.find(c => c.id === 4),
+                ]
+            },
+            {
+                nameWayDown: "Защищать родной дом",
+                additional: false,
+                prize: [
+                    historyItem.find(c => c.id === 1),
+                    characteristicsData.find(c => c.id === 2),
+                ]
+            }
+        ],
+        requirement: [
+            characteristicsData.find(c => c.id === 4),
+            characteristicsData.find(c => c.id === 2),
+        ],
+        footer: {
+            act: 1,
+            author: "Пол Скотт Канаван",
+            addition: addition.find(c => c.id === 0),
+            cardNumber: "055",
+            year: 2018,
+        }
+    },
+    {
+        id: 5,
+        
         nameCard:'Опасный артефакт',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/dangerous_artifact.png',
@@ -186,7 +222,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 5,
+        id: 6,
         
         nameCard:'Суровая зима',
         hard: hardData.find(hard => hard.name === 4),
@@ -222,7 +258,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 6,
+        id: 7,
         
         nameCard:'Гильдия воров',
         hard: hardData.find(hard => hard.name === 3),
@@ -257,7 +293,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 7,
+        id: 8,
         
         nameCard:'Пропавший без вести',
         hard: hardData.find(hard => hard.name === 4),
@@ -293,7 +329,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 8,
+        id: 9,
         
         nameCard:'Подготовка к войне',
         hard: hardData.find(hard => hard.name === 4),
@@ -329,7 +365,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 9,
+        id: 10,
         
         nameCard:'Детская вражда',
         hard: hardData.find(hard => hard.name === 4),
@@ -365,7 +401,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 10,
+        id: 11,
         
         nameCard:'Неупокоенный душ',
         hard: hardData.find(hard => hard.name === 4),
@@ -400,7 +436,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 11,
+        id: 12,
         
         nameCard:'Лесная чаща',
         hard: hardData.find(hard => hard.name === 3),
@@ -430,12 +466,12 @@ export const trialsCard_ACT_1 = [
             act: 1,
             author: "Спенсер Идальго",
             addition: addition.find(c => c.id === 0),
-            cardNumber: "068",
+            cardNumber: "061",
             year: 2018,
         }
     },
     {
-        id: 12,
+        id: 13,
         
         nameCard:'Запретные знания',
         hard: hardData.find(hard => hard.name === 4),
@@ -471,7 +507,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 13,
+        id: 14,
         
         nameCard:'Бушующее пламя>',
         hard: hardData.find(hard => hard.name === 3),
@@ -506,7 +542,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 14,
+        id: 15,
         
         nameCard:'Поступление в университет',
         hard: hardData.find(hard => hard.name === 3),
@@ -541,7 +577,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 15,
+        id: 16,
         
         nameCard:'Назойливый ухажер',
         hard: hardData.find(hard => hard.name === 3),
@@ -577,7 +613,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 16,
+        id: 17,
         
         nameCard:'Шайка уличных мальчишек',
         hard: hardData.find(hard => hard.name === 4),
@@ -613,7 +649,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 17,
+        id: 18,
         
         nameCard:'Шайка уличных мальчишек',
         hard: hardData.find(hard => hard.name === 4),
@@ -645,6 +681,149 @@ export const trialsCard_ACT_1 = [
             author: "Адам Дж. Мартин",
             addition: addition.find(c => c.id === 1),
             cardNumber: "012",
+            year: 2019,
+        }
+    },
+    {
+        id: 19,
+        
+        nameCard:'Нападение чандрианов',
+        hard: hardData.find(hard => hard.name === 4),
+        img: '/img/cards/trials_act_1/Chandrian_attack.png',
+        ways:[
+            {
+                nameWayUp: "С трудом спастись",
+                additional: false,
+                prize: [
+                    prizeData.find(c => c.id === 2),
+                    characteristicsData.find(c => c.id === 2),
+                ]
+            },
+            {
+                nameWayDown: "Найти уцелевших",
+                additional: false,
+                prize: [
+                    namesData.find(c => c.id === 1),
+                    characteristicsData.find(c => c.id === 5),
+                ]
+            }
+        ],
+        requirement: [
+            characteristicsData.find(c => c.id === 2),
+            characteristicsData.find(c => c.id === 5),
+        ],
+        footer: {
+            act: 1,
+            author: "Артем Демура",
+            addition: addition.find(c => c.id === 1),
+            cardNumber: "014",
+            year: 2019,
+        }
+    },
+    {
+        id: 20,
+        
+        nameCard:'Подсветье',
+        hard: hardData.find(hard => hard.name === 3),
+        img: '/img/cards/trials_act_1/candlestick.png',
+        ways:[
+            {
+                nameWayUp: "Сбежать от всего мира",
+                additional: false,
+                prize: [
+                    characteristicsData.find(c => c.id === 2),
+                ]
+            },
+            {
+                nameWayDown: "Преисполниться \n достоинством \n безмолвия",
+                additional: true,
+                prize: [
+                    namesData.find(c => c.id === 0),
+                    characteristicsData.find(c => c.id === 5),
+                ]
+            }
+        ],
+        requirement: [
+            characteristicsData.find(c => c.id === 2),
+            characteristicsData.find(c => c.id === 1),
+        ],
+        footer: {
+            act: 1,
+            author: "Адам Дж. Мартин",
+            addition: addition.find(c => c.id === 1),
+            cardNumber: "015",
+            year: 2019,
+        }
+    },
+    {
+        id: 21,
+        
+        nameCard:'Трущебы берега',
+        hard: hardData.find(hard => hard.name === 4),
+        img: '/img/cards/trials_act_1/coastal_slums.png',
+        ways:[
+            {
+                nameWayUp: "Выжить под открытым небом",
+                additional: false,
+                prize: [
+                    namesData.find(c => c.id === 2),
+                    characteristicsData.find(c => c.id === 2),
+                ]
+            },
+            {
+                nameWayDown: "Отыскать убежище",
+                additional: false,
+                prize: [
+                    historyItem.find(c => c.id === 0),
+                    characteristicsData.find(c => c.id === 0),
+                ]
+            }
+        ],
+        requirement: [
+            characteristicsData.find(c => c.id === 2),
+            characteristicsData.find(c => c.id === 0),
+        ],
+        footer: {
+            act: 1,
+            author: "Адам Дж. Мартин",
+            addition: addition.find(c => c.id === 1),
+            cardNumber: "016",
+            year: 2019,
+        }
+    },
+    {
+        id: 22,
+        
+        nameCard:'Уроки симпатии',
+        hard: hardData.find(hard => hard.name === 4),
+        img: '/img/cards/trials_act_1/lessons_of_sympathy.png',
+        ways:[
+            {
+                nameWayUp: "Гениальная смекалка",
+                additional: false,
+                prize: [
+                    historyItem.find(c => c.id === 2),
+                    characteristicsData.find(c => c.id === 5),
+                ]
+            },
+            {
+                nameWayDown: "Необъяснимый дар",
+                additional: false,
+                prize: [
+                    historyItem.find(c => c.id === 0),
+                    characteristicsData.find(c => c.id === 1),
+                ]
+            }
+        ],
+        requirement: [
+            characteristicsData.find(c => c.id === 5),
+            characteristicsData.find(c => c.id === 1),
+        ],
+        footer: {
+            act: 1,
+            author: "Гал Ор",
+            addition: addition.find(c => c.id === 1),
+            cardNumber: "017",
             year: 2019,
         }
     },
