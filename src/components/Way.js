@@ -2,10 +2,17 @@ import style from './styles/Way.module.css'
 import Attributes from "./Attributes";
 import WayPaper from "./WayPaper";
 function Way({title, attributes, additional }) {
-    const isLongTitle = title.length > 25;
+    const isLongTitle = title.length > 24;
+    const isLongerTitle = title.length > 30;
+    const hasNewLine = title.includes('\n');
+    
     return(
         <>
-            <div className={`${style.Way} ${isLongTitle ? style.WayLong : ""}`}>
+            <div className={`
+            ${style.Way} ${isLongTitle ? style.WayLong : ""}
+            ${style.Way} ${isLongerTitle ? style.WayLonger : ""}
+            ${hasNewLine ? style.WayLong : ""}
+            `}>
                 <WayPaper title={title} addComplex={additional}/>
                 <Attributes attributes={attributes}/>
             </div>

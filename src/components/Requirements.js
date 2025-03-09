@@ -2,7 +2,6 @@ import Hard from "./Hard";
 import Chain from "./Chain";
 import Rune from "./Rune";
 import style from './styles/Requirements.module.css'
-import {logDOM} from "@testing-library/dom";
 function Requirements({title ,runes, hard}) {
     return (
         <div className={style.Container}>

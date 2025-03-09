@@ -15,7 +15,7 @@ export const trialsCard_ACT_1 = [
         img: '/img/cards/trials_act_1/magical_tеst.png',
         ways:[
             {
-                nameWayUp: "Склонность к светлой магии",
+                nameWayUp: "Склонность к светлой \n магии",
                 additional: false,
                 prize: [
                     historyItem.find(c => c.id === 2),
@@ -657,7 +657,7 @@ export const trialsCard_ACT_1 = [
         img: '/img/cards/trials_act_1/learn_a_song.png',
         ways:[
             {
-                nameWayUp: "<<Песня о сэре Савиене>>",
+                nameWayUp: "«Песня о сэре Савиене»",
                 additional: false,
                 prize: [
                     historyItem.find(c => c.id === 6),
@@ -665,7 +665,7 @@ export const trialsCard_ACT_1 = [
                 ]
             },
             {
-                nameWayDown: "<<Ветер, играющий листком>>",
+                nameWayDown: "«Ветер, играющий \n листком»",
                 additional: false,
                 prize: [
                     namesData.find(c => c.id === 2),
@@ -736,7 +736,7 @@ export const trialsCard_ACT_1 = [
                 ]
             },
             {
-                nameWayDown: "Преисполниться \n достоинством \n безмолвия",
+                nameWayDown: "Преисполниться достоинством \n безмолвия",
                 additional: true,
                 prize: [
                     namesData.find(c => c.id === 0),
