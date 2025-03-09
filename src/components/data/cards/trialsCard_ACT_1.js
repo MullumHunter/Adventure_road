@@ -4,10 +4,11 @@ import {historyItem} from "../historyItem";
 import {characteristicsData} from "../characteristicsData";
 import {addition} from "../Addition";
 import {namesData} from "../NamesData";
+import {generateUniqueId} from "../../utils/GenerateId";
 
 export const trialsCard_ACT_1 = [
     {
-        id: 0,
+        id: generateUniqueId(),
         
         nameCard:'Магическое испытание',
         hard: hardData.find(hard => hard.name === 4),
@@ -43,7 +44,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 1,
+        id: generateUniqueId(),
         
         nameCard:'Кошелек или жизнь',
         hard: hardData.find(hard => hard.name === 3),
@@ -78,7 +79,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 2,
+        id: generateUniqueId(),
         
         nameCard:'Академия',
         hard: hardData.find(hard => hard.name === 4),
@@ -114,7 +115,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 3,
+        id: generateUniqueId(),
         
         nameCard:'Уличная драка',
         hard: hardData.find(hard => hard.name === 4),
@@ -150,7 +151,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 4,
+        id: generateUniqueId(),
         
         nameCard:'Призыв к оружию',
         hard: hardData.find(hard => hard.name === 4),
@@ -186,7 +187,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 5,
+        id: generateUniqueId(),
         
         nameCard:'Опасный артефакт',
         hard: hardData.find(hard => hard.name === 4),
@@ -222,7 +223,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 6,
+        id: generateUniqueId(),
         
         nameCard:'Суровая зима',
         hard: hardData.find(hard => hard.name === 4),
@@ -258,7 +259,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 7,
+        id: generateUniqueId(),
         
         nameCard:'Гильдия воров',
         hard: hardData.find(hard => hard.name === 3),
@@ -293,7 +294,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 8,
+        id: generateUniqueId(),
         
         nameCard:'Пропавший без вести',
         hard: hardData.find(hard => hard.name === 4),
@@ -329,7 +330,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 9,
+        id: generateUniqueId(),
         
         nameCard:'Подготовка к войне',
         hard: hardData.find(hard => hard.name === 4),
@@ -365,7 +366,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 10,
+        id: generateUniqueId(),
         
         nameCard:'Детская вражда',
         hard: hardData.find(hard => hard.name === 4),
@@ -401,7 +402,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 11,
+        id: generateUniqueId(),
         
         nameCard:'Неупокоенный душ',
         hard: hardData.find(hard => hard.name === 4),
@@ -436,7 +437,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 12,
+        id: generateUniqueId(),
         
         nameCard:'Лесная чаща',
         hard: hardData.find(hard => hard.name === 3),
@@ -471,7 +472,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 13,
+        id: generateUniqueId(),
         
         nameCard:'Запретные знания',
         hard: hardData.find(hard => hard.name === 4),
@@ -507,7 +508,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 14,
+        id: generateUniqueId(),
         
         nameCard:'Бушующее пламя>',
         hard: hardData.find(hard => hard.name === 3),
@@ -542,7 +543,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 15,
+        id: generateUniqueId(),
         
         nameCard:'Поступление в университет',
         hard: hardData.find(hard => hard.name === 3),
@@ -577,7 +578,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 16,
+        id: generateUniqueId(),
         
         nameCard:'Назойливый ухажер',
         hard: hardData.find(hard => hard.name === 3),
@@ -613,7 +614,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 17,
+        id: generateUniqueId(),
         
         nameCard:'Шайка уличных мальчишек',
         hard: hardData.find(hard => hard.name === 4),
@@ -649,7 +650,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 18,
+        id: generateUniqueId(),
         
         nameCard:'Шайка уличных мальчишек',
         hard: hardData.find(hard => hard.name === 4),
@@ -685,7 +686,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 19,
+        id: generateUniqueId(),
         
         nameCard:'Нападение чандрианов',
         hard: hardData.find(hard => hard.name === 4),
@@ -721,7 +722,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 20,
+        id: generateUniqueId(),
         
         nameCard:'Подсветье',
         hard: hardData.find(hard => hard.name === 3),
@@ -756,7 +757,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 21,
+        id: generateUniqueId(),
         
         nameCard:'Трущебы берега',
         hard: hardData.find(hard => hard.name === 4),
@@ -792,7 +793,7 @@ export const trialsCard_ACT_1 = [
         }
     },
     {
-        id: 22,
+        id: generateUniqueId(),
         
         nameCard:'Уроки симпатии',
         hard: hardData.find(hard => hard.name === 4),
