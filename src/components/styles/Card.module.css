@@ -19,6 +19,7 @@
 .Fabric {
     position: absolute;
     width: 15px;
+    height: 85%;
     left: 5px;
     top: 0;
     opacity: 0.7;
