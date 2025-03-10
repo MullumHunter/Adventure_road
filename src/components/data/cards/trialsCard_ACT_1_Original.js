@@ -1,6 +1,6 @@
 import {hardData} from "../HardData";
 import {prizeData} from "../PrizeData";
-import {historyItem} from "../historyItem";
+import {historyItems} from "../historyItems";
 import {characteristicsData} from "../characteristicsData";
 import {addition} from "../Addition";
 import {generateUniqueId} from "../../utils/GenerateId";
@@ -17,7 +17,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayUp: "Склонность \n к светлой магии",
                 additional: false,
                 prize: [
-                    historyItem.find(c => c.id === 2),
+                    historyItems.find(c => c.id === 2),
                     characteristicsData.find(c => c.id === 5),
                 ]
             },
@@ -60,7 +60,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayDown: "Защитить \n свою семью",
                 additional: true,
                 prize: [
-                    historyItem.find(c => c.id === 1),
+                    historyItems.find(c => c.id === 1),
                     characteristicsData.find(c => c.id === 2),
                 ]
             }
@@ -88,7 +88,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayUp: "Преуспеть в учебе",
                 additional: false,
                 prize: [
-                    historyItem.find(c => c.id === 2),
+                    historyItems.find(c => c.id === 2),
                     characteristicsData.find(c => c.id === 5),
                 ]
             },
@@ -124,7 +124,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayUp: "Научиться \n подлым уловкам",
                 additional: false,
                 prize: [
-                    historyItem.find(c => c.id === 3),
+                    historyItems.find(c => c.id === 3),
                     characteristicsData.find(c => c.id === 0),
                 ]
             },
@@ -168,7 +168,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayDown: "Защищать \n  родной дом",
                 additional: false,
                 prize: [
-                    historyItem.find(c => c.id === 1),
+                    historyItems.find(c => c.id === 1),
                     characteristicsData.find(c => c.id === 2),
                 ]
             }
@@ -204,7 +204,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayDown: "Устоять перед \n искушением",
                 additional: false,
                 prize: [
-                    historyItem.find(c => c.id === 0),
+                    historyItems.find(c => c.id === 0),
                     characteristicsData.find(c => c.id === 2),
                 ]
             }
@@ -240,7 +240,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayDown: "Отправиться \n на поиска еды",
                 additional: false,
                 prize: [
-                    historyItem.find(c => c.id === 4),
+                    historyItems.find(c => c.id === 4),
                     characteristicsData.find(c => c.id === 2),
                 ]
             }
@@ -275,7 +275,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayDown: "Выучиться \n на убийцу",
                 additional: true,
                 prize: [
-                    historyItem.find(c => c.id === 3),
+                    historyItems.find(c => c.id === 3),
                     characteristicsData.find(c => c.id === 0),
                 ]
             }
@@ -303,7 +303,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayUp: "Найти пропавшее дитя",
                 additional: false,
                 prize: [
-                    historyItem.find(c => c.id === 4),
+                    historyItems.find(c => c.id === 4),
                     characteristicsData.find(c => c.id === 1),
                 ]
             },
@@ -339,7 +339,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayUp: "Продумать оборону города",
                 additional: false,
                 prize: [
-                    historyItem.find(c => c.id === 5),
+                    historyItems.find(c => c.id === 5),
                     characteristicsData.find(c => c.id === 5),
                 ]
             },
@@ -375,7 +375,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayUp: "Подружиться с врагом",
                 additional: false,
                 prize: [
-                    historyItem.find(c => c.id === 5),
+                    historyItems.find(c => c.id === 5),
                     characteristicsData.find(c => c.id === 3),
                 ]
             },
@@ -383,7 +383,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayDown: "Сокрушить соперника",
                 additional: false,
                 prize: [
-                    historyItem.find(c => c.id === 3),
+                    historyItems.find(c => c.id === 3),
                     characteristicsData.find(c => c.id === 4),
                 ]
             }
@@ -418,7 +418,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayDown: "Заручиться \n защитой духа",
                 additional: true,
                 prize: [
-                    historyItem.find(c => c.id === 0),
+                    historyItems.find(c => c.id === 0),
                     characteristicsData.find(c => c.id === 3),
                 ]
             }
@@ -481,7 +481,7 @@ export const trialsCard_ACT_1_Original = [
                 nameWayUp: "Найти забытые \n предания",
                 additional: false,
                 prize: [
-                    historyItem.find(c => c.id === 2),
+                    historyItems.find(c => c.id === 2),
                     characteristicsData.find(c => c.id === 0),
                 ]
             },

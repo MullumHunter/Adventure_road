@@ -1,7 +1,7 @@
 import {characteristicsData} from "./characteristicsData";
 import {prizeData} from "./PrizeData";
 import {hardData} from "./HardData.js";
-import {historyItem} from "./historyItem";
+import {historyItems} from "./historyItems";
 import {addition} from "./Addition";
 
 
@@ -17,7 +17,7 @@ export  const cardCatalog =[
                 nameWayUp: "Предотвратить пожар",
                 prize: [
                     prizeData.find(c => c.id === 1),
-                    historyItem.find(c => c.id === 4),
+                    historyItems.find(c => c.id === 4),
                 ]
             },
             {

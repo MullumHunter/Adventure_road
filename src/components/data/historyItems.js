@@ -1,4 +1,4 @@
-export const historyItem=[
+export const historyItems=[
     {
         id:0,
         type: "history",

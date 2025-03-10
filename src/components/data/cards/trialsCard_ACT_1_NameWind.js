@@ -3,7 +3,7 @@ import {hardData} from "../HardData";
 import {characteristicsData} from "../characteristicsData";
 import {prizeData} from "../PrizeData";
 import {addition} from "../Addition";
-import {historyItem} from "../historyItem";
+import {historyItems} from "../historyItems";
 import {namesData} from "../NamesData";
 
 
@@ -54,7 +54,7 @@ export const trialsCard_ACT_1_NameWind = [
             nameWayUp: "Охмурить богатого дворянина",
             additional: false,
             prize: [
-                historyItem.find(c => c.id === 6),
+                historyItems.find(c => c.id === 6),
                 characteristicsData.find(c => c.id === 3),
             ]
         },
@@ -90,7 +90,7 @@ export const trialsCard_ACT_1_NameWind = [
             nameWayUp: "Спасти невиновного",
             additional: false,
             prize: [
-                historyItem.find(c => c.id === 0),
+                historyItems.find(c => c.id === 0),
                 characteristicsData.find(c => c.id === 4),
             ]
         },
@@ -98,7 +98,7 @@ export const trialsCard_ACT_1_NameWind = [
             nameWayDown: "Жить с сожалениями",
             additional: false,
             prize: [
-                historyItem.find(c => c.id === 3),
+                historyItems.find(c => c.id === 3),
                 characteristicsData.find(c => c.id === 1),
             ]
         }
@@ -126,7 +126,7 @@ export const trialsCard_ACT_1_NameWind = [
             nameWayUp: "«Песня о сэре Савиене»",
             additional: false,
             prize: [
-                historyItem.find(c => c.id === 6),
+                historyItems.find(c => c.id === 6),
                 characteristicsData.find(c => c.id === 0),
             ]
         },
@@ -241,7 +241,7 @@ export const trialsCard_ACT_1_NameWind = [
             nameWayDown: "Отыскать убежище",
             additional: false,
             prize: [
-                historyItem.find(c => c.id === 0),
+                historyItems.find(c => c.id === 0),
                 characteristicsData.find(c => c.id === 0),
             ]
         }
@@ -269,7 +269,7 @@ export const trialsCard_ACT_1_NameWind = [
             nameWayUp: "Гениальная смекалка",
             additional: false,
             prize: [
-                historyItem.find(c => c.id === 2),
+                historyItems.find(c => c.id === 2),
                 characteristicsData.find(c => c.id === 5),
             ]
         },
@@ -277,7 +277,7 @@ export const trialsCard_ACT_1_NameWind = [
             nameWayDown: "Необъяснимый дар",
             additional: false,
             prize: [
-                historyItem.find(c => c.id === 0),
+                historyItems.find(c => c.id === 0),
                 characteristicsData.find(c => c.id === 1),
             ]
         }
