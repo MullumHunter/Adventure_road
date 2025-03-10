@@ -4,7 +4,7 @@ import {useState} from "react";
 // import Input from "./components/Input";
 // import ListData from './components/data/ListData'
 import {listData} from "./components/data/ListData";
-import {trialsCard_ACT_1} from "./components/data/cards/trialsCard_ACT_1";
+import {trialsCard_ACT_1_Original} from "./components/data/cards/trialsCard_ACT_1_Original";
 
 function App() {
     

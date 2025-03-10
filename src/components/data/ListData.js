@@ -1,9 +1,10 @@
-import {trialsCard_ACT_1} from "./cards/trialsCard_ACT_1";
+import {trialsCard_ACT_1_Original} from "./cards/trialsCard_ACT_1_Original";
+import {aggregatorCard} from "./cards/AggregatorCard";
 export const listData = [
     {
         id: 0,
         nameLibrary: "Первая",
-        cards: trialsCard_ACT_1,
+        cards: aggregatorCard,
     }
 ];
 
