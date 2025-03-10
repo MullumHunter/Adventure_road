@@ -15,7 +15,7 @@ export const trialsCard_ACT_1 = [
         img: '/img/cards/trials_act_1/magical_tеst.png',
         ways:[
             {
-                nameWayUp: "Склонность к светлой \n магии",
+                nameWayUp: "Склонность \n к светлой магии",
                 additional: false,
                 prize: [
                     historyItem.find(c => c.id === 2),
@@ -158,7 +158,7 @@ export const trialsCard_ACT_1 = [
         img: '/img/cards/trials_act_1/call_to_arms.png',
         ways:[
             {
-                nameWayUp: "вступить в королевскую армию",
+                nameWayUp: "Вступить \n в королевскую армию",
                 additional: false,
                 prize: [
                     prizeData.find(c => c.id === 8),
@@ -166,7 +166,7 @@ export const trialsCard_ACT_1 = [
                 ]
             },
             {
-                nameWayDown: "Защищать родной дом",
+                nameWayDown: "Защищать \n  родной дом",
                 additional: false,
                 prize: [
                     historyItem.find(c => c.id === 1),
@@ -218,7 +218,7 @@ export const trialsCard_ACT_1 = [
             act: 1,
             author: "Артем Демура",
             addition: addition.find(c => c.id === 0),
-            cardNumber: "054",
+            cardNumber: "063",
             year: 2018,
         }
     },
@@ -309,7 +309,7 @@ export const trialsCard_ACT_1 = [
                 ]
             },
             {
-                nameWayDown: "Выучиться \n на убийцу",
+                nameWayDown: "Выбираться самому",
                 additional: false,
                 prize: [
                     prizeData.find(c => c.id === 7),
@@ -404,8 +404,8 @@ export const trialsCard_ACT_1 = [
     {
         id: generateUniqueId(),
         
-        nameCard:'Неупокоенный душ',
-        hard: hardData.find(hard => hard.name === 4),
+        nameCard:'Неупокоенный дух',
+        hard: hardData.find(hard => hard.name === 3),
         img: '/img/cards/trials_act_1/restless_spirit.png',
         ways:[
             {
@@ -581,7 +581,7 @@ export const trialsCard_ACT_1 = [
         id: generateUniqueId(),
         
         nameCard:'Назойливый ухажер',
-        hard: hardData.find(hard => hard.name === 3),
+        hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/annoying_boyfriend.png',
         ways:[
             {
@@ -652,7 +652,7 @@ export const trialsCard_ACT_1 = [
     {
         id: generateUniqueId(),
         
-        nameCard:'Шайка уличных мальчишек',
+        nameCard:'Выучить песню',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/learn_a_song.png',
         ways:[
@@ -681,7 +681,7 @@ export const trialsCard_ACT_1 = [
             act: 1,
             author: "Адам Дж. Мартин",
             addition: addition.find(c => c.id === 1),
-            cardNumber: "012",
+            cardNumber: "013",
             year: 2019,
         }
     },

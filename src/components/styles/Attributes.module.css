@@ -1,7 +1,7 @@
 .Attributes {
     display: flex;
     align-items: center;
-    gap: 1px;
+    gap: 2px;
     box-sizing: content-box;
     flex-shrink: 0;
     z-index: 2;
