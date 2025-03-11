@@ -7,6 +7,7 @@ export const characterCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "character",
         ways:[
             {
                 nameWayUp: "Прохвост",

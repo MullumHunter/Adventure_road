@@ -9,6 +9,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Магическое испытание',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/magical_tеst.png',
@@ -45,6 +46,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Кошелек или жизнь',
         hard: hardData.find(hard => hard.name === 3),
         img: '/img/cards/trials_act_1/money_or_life.png',
@@ -80,6 +82,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Академия',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/academy.png',
@@ -116,6 +119,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Уличная драка',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/street_fight.png',
@@ -152,6 +156,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Призыв к оружию',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/call_to_arms.png',
@@ -188,6 +193,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Опасный артефакт',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/dangerous_artifact.png',
@@ -224,6 +230,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Суровая зима',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/harsh_winter.png',
@@ -260,6 +267,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Гильдия воров',
         hard: hardData.find(hard => hard.name === 3),
         img: '/img/cards/trials_act_1/guild_of_pilferers.png',
@@ -295,6 +303,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Пропавший без вести',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/missing.png',
@@ -331,6 +340,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Подготовка к войне',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/war_preparations.png',
@@ -367,6 +377,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Детская вражда',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/childish_feud.png',
@@ -403,6 +414,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Неупокоенный дух',
         hard: hardData.find(hard => hard.name === 3),
         img: '/img/cards/trials_act_1/restless_spirit.png',
@@ -438,6 +450,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Лесная чаща',
         hard: hardData.find(hard => hard.name === 3),
         img: '/img/cards/trials_act_1/forest_thicket.png',
@@ -473,6 +486,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Запретные знания',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/forbidden_knowledge.png',
@@ -509,6 +523,7 @@ export const trialsCard_ACT_1_Original = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Бушующее пламя>',
         hard: hardData.find(hard => hard.name === 3),
         img: '/img/cards/trials_act_1/raging_flames.png',

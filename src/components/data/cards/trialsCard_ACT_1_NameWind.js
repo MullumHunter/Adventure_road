@@ -11,6 +11,7 @@ export const trialsCard_ACT_1_NameWind = [
     {
         id: generateUniqueId(),
         
+        type: "challenge",
         nameCard:'Поступление в университет',
         hard: hardData.find(hard => hard.name === 3),
         img: '/img/cards/trials_act_1/enter_University.png',
@@ -45,8 +46,9 @@ export const trialsCard_ACT_1_NameWind = [
     },
     {
         id: generateUniqueId(),
-            
-            nameCard:'Назойливый ухажер',
+        
+        type: "challenge",
+        nameCard:'Назойливый ухажер',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/annoying_boyfriend.png',
         ways:[
@@ -81,8 +83,9 @@ export const trialsCard_ACT_1_NameWind = [
     },
     {
         id: generateUniqueId(),
-            
-            nameCard:'Шайка уличных мальчишек',
+        
+        type: "challenge",
+        nameCard:'Шайка уличных мальчишек',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/gang_of_street_urchins.png',
         ways:[
@@ -117,8 +120,9 @@ export const trialsCard_ACT_1_NameWind = [
     },
     {
         id: generateUniqueId(),
-            
-            nameCard:'Выучить песню',
+        
+        type: "challenge",
+        nameCard:'Выучить песню',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/learn_a_song.png',
         ways:[
@@ -153,8 +157,9 @@ export const trialsCard_ACT_1_NameWind = [
     },
     {
         id: generateUniqueId(),
-            
-            nameCard:'Нападение чандрианов',
+        
+        type: "challenge",
+        nameCard:'Нападение чандрианов',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/Chandrian_attack.png',
         ways:[
@@ -189,8 +194,9 @@ export const trialsCard_ACT_1_NameWind = [
     },
     {
         id: generateUniqueId(),
-            
-            nameCard:'Подсветье',
+        
+        type: "challenge",
+        nameCard:'Подсветье',
         hard: hardData.find(hard => hard.name === 3),
         img: '/img/cards/trials_act_1/candlestick.png',
         ways:[
@@ -224,8 +230,9 @@ export const trialsCard_ACT_1_NameWind = [
     },
     {
         id: generateUniqueId(),
-            
-            nameCard:'Трущебы берега',
+        
+        type: "challenge",
+        nameCard:'Трущебы берега',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/coastal_slums.png',
         ways:[
@@ -260,8 +267,9 @@ export const trialsCard_ACT_1_NameWind = [
     },
     {
         id: generateUniqueId(),
-            
-            nameCard:'Уроки симпатии',
+        
+        type: "challenge",
+        nameCard:'Уроки симпатии',
         hard: hardData.find(hard => hard.name === 4),
         img: '/img/cards/trials_act_1/lessons_of_sympathy.png',
         ways:[
