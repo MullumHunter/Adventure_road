@@ -6,12 +6,12 @@ import TextCharacterCard from "../TextCharacterCard";
 function CardCharacter({way, img, footer, text}) {
     console.log(text)
     return (
-        <div className={styles.Card} style={{backgroundImage: `url(${img})`}}>
+        <div className={`${styles.Card} ${styles.Character}`} style={{backgroundImage: `url(${img})`}}>
             <Way title={way.nameWayUp} attributes={way.prize} />
-            <>
+            <div>
                 <TextCharacterCard text={text}/>
                 <FooterCard attributes={footer}/>
-            </>
+            </div>
         </div>
     )
 }

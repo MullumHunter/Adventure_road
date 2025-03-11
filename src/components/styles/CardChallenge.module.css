@@ -24,3 +24,6 @@
     top: 0;
     opacity: 0.7;
 }
+.Character {
+    justify-content: space-between;
+}

@@ -2,7 +2,6 @@ import {generateUniqueId} from "../../utils/GenerateId";
 import {historyItems} from "../historyItems";
 import {characteristicsData} from "../characteristicsData";
 import {addition} from "../Addition";
-import ItemCharacterCard from "../../ItemCharacterCard";
 
 export const characterCard_ACT_1_Original = [
     {
@@ -19,7 +18,7 @@ export const characterCard_ACT_1_Original = [
                 ]
             }
         ,
-        text: "Вы можете взять эту карту, если у вас есть (heart) или потратив (month)",
+        text: "Вы можете взять \n эту карту, если у вас есть (month) или потратив (experience).",
         
         footer: {
             act: 1,

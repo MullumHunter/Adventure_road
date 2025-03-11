@@ -8,4 +8,6 @@
 .Box {
     border: 1px solid #eb00ff;
     font-size: 10px;
+    width: 85%;
+    margin: 0 auto;
 }
