@@ -1,9 +1,9 @@
-import styles from "../styles/CardСhallenge.module.css";
+import styles from "../styles/CardChallenge.module.css";
 import Way from "../Way";
 import Requirements from "../Requirements";
 import FooterCard from "../FooterCard";
 
-function CardHallenge({id, nameCard, hard, img, ways, requirement, footer}) {
+function CardChallenge({id, nameCard, hard, img, ways, requirement, footer}) {
     return (
         <div className={styles.Card} style={{ backgroundImage: `url(${img})`}}>
             <img className={styles.Fabric} src='/img/chain/fabricMax5.png' alt="fabric"/>
@@ -16,4 +16,4 @@ function CardHallenge({id, nameCard, hard, img, ways, requirement, footer}) {
     );
 }
 
-export default CardHallenge;
+export default CardChallenge;

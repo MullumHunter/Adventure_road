@@ -1,4 +1,4 @@
-import styles from "../styles/CardСhallenge.module.css";
+import styles from "../styles/CardChallenge.module.css";
 import FooterCard from "../FooterCard";
 import Way from "../Way";
 
