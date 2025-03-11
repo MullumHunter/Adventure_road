@@ -1,0 +1,11 @@
+.Item {
+    height: 14px;
+    width: auto;
+    display: inline;
+    border: 1px solid #eb00ff;
+
+}
+.Box {
+    border: 1px solid #eb00ff;
+    font-size: 10px;
+}

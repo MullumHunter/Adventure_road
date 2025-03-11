@@ -3,7 +3,6 @@ import styles from "./styles/CardList.module.css";
 import CardCharacter from "./typesCards/CardCharacter";
 
 function CardList({ id, cards, nameLibrary }) {
-    console.log({cards})
     return (<>
         <h3>{nameLibrary}</h3>
         <div className={styles.CardList}>
@@ -19,10 +18,11 @@ function CardList({ id, cards, nameLibrary }) {
                                   ways={card.ways}
                                   footer={card.footer}/>
                     case "character": return <CardCharacter key={id}
-                                                          nameCard={card.nameCard}
-                                                          img={card.img}
-                                                          way={card.way}
-                                                          footer={card.footer}/>
+                                                            text={card.text}
+                                                            nameCard={card.nameCard}
+                                                            img={card.img}
+                                                            way={card.way}
+                                                            footer={card.footer}/>
                     default: return null;
                 }
             })}
