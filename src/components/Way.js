@@ -8,11 +8,11 @@ function Way({title, attributes, additional }) {
     
     return(
         <>
-            <div className={`
-            ${style.Way} ${isLongTitle ? style.WayLong : ""}
-            ${style.Way} ${isLongerTitle ? style.WayLonger : ""}
-            ${hasNewLine ? style.WayLong : ""}
-            `}>
+            <div className={`${style.Way}
+                         ${isLongTitle ? style.WayLong : ""}
+                         ${isLongerTitle ? style.WayLonger : ""}
+                         ${hasNewLine ? style.WayLong : ""}`.trim()}>
+                
                 <WayPaper title={title} addComplex={additional}/>
                 <Attributes attributes={attributes}/>
             </div>

@@ -8,7 +8,7 @@ export const characterCard_ACT_1_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        ways:[
+        way:
             {
                 nameWayUp: "Прохвост",
                 prize: [
@@ -16,7 +16,7 @@ export const characterCard_ACT_1_Original = [
                     characteristicsData.find(c => c.id === 0),
                 ]
             }
-        ],
+        ,
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
