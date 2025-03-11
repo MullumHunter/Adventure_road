@@ -3,6 +3,7 @@ import styles from "./styles/CardList.module.css";
 import CardCharacter from "./typesCards/CardCharacter";
 
 function CardList({ id, cards, nameLibrary }) {
+    console.log(cards.length)
     return (<>
         <h3>{nameLibrary}</h3>
         <div className={styles.CardList}>
