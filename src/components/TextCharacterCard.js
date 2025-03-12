@@ -20,7 +20,7 @@ function TextCharacterCard({ text }) {
     };
     
     return (
-        <div className={styles.Box}>
+        <div className={styles.Box} style={{backgroundImage: `url("/img/chain/paperBig.png"`}}>
             {parseText(text)}
         </div>
     );

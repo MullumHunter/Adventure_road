@@ -2,13 +2,15 @@
     height: 14px;
     width: auto;
     display: inline;
-    border: 1px solid #eb00ff;
 
 }
-.Box {
-    border: 1px solid #eb00ff;
+.Box  {
     font-size: 8px;
+    color: black;
+    font-weight: bold;
     width: 85%;
     padding: 15px 0 15px 0;
     margin: 0 auto;
+    background-size: contain;
+    background-repeat: round;
 }
