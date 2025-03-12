@@ -8,7 +8,7 @@ export const characterCard_ACT_1_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/trials_act_1/lessons_of_sympathy.png',
+        img: '/img/cards/haracter_act_1/scoundrel.png',
         way:
             {
                 nameWayUp: "Прохвост",
