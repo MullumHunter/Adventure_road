@@ -3,7 +3,7 @@ import styles from './styles/ItemCharacterCard.module.css';
 
 function TextCharacterCard({ text }) {
     const parseText = (text) => {
-        const parts = text.split(/(\(experience\)|\(month\)|\n)/g);
+        const parts = text.split(/(\(experience\)|\(card_hero\)|\(month\)|\n)/g);
         
         return parts.map((part, index) => {
             if (part === "(experience)") {
@@ -11,6 +11,9 @@ function TextCharacterCard({ text }) {
             }
             if (part === "(month)") {
                 return <ItemCharacterCard key={index} type="month" />;
+            }
+            if (part === "(card_hero)") {
+                return <ItemCharacterCard key={index} type="card_hero" />;
             }
             if (part === "\n") {
                 return <br key={index} />;
