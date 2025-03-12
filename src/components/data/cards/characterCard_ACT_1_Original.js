@@ -33,7 +33,7 @@ export const characterCard_ACT_1_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/haracter_act_1/scoundrel.png',
+        img: '/img/cards/haracter_act_1/blood_royal.png',
         way:
             {
                 nameWayUp: "Королевская кровь",
@@ -57,7 +57,7 @@ export const characterCard_ACT_1_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/haracter_act_1/scoundrel.png',
+        img: '/img/cards/haracter_act_1/diligent_student.png',
         way:
             {
                 nameWayUp: "Прилежный ученик",
@@ -81,7 +81,7 @@ export const characterCard_ACT_1_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/haracter_act_1/scoundrel.png',
+        img: '/img/cards/haracter_act_1/foundling.png',
         way:
             {
                 nameWayUp: "Найденыш",
@@ -105,7 +105,7 @@ export const characterCard_ACT_1_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/haracter_act_1/scoundrel.png',
+        img: '/img/cards/haracter_act_1/orphan.png',
         way:
             {
                 nameWayUp: "Сирота",
@@ -129,7 +129,7 @@ export const characterCard_ACT_1_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/haracter_act_1/scoundrel.png',
+        img: '/img/cards/haracter_act_1/adventurer.png',
         way:
             {
                 nameWayUp: "Искатель приключений",
@@ -153,7 +153,7 @@ export const characterCard_ACT_1_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/haracter_act_1/scoundrel.png',
+        img: '/img/cards/haracter_act_1/brave_man.png',
         way:
             {
                 nameWayUp: "Храбрец",
@@ -177,7 +177,7 @@ export const characterCard_ACT_1_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/haracter_act_1/scoundrel.png',
+        img: '/img/cards/haracter_act_1/believer.png',
         way:
             {
                 nameWayUp: "Верующий",
@@ -201,7 +201,7 @@ export const characterCard_ACT_1_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/haracter_act_1/scoundrel.png',
+        img: '/img/cards/haracter_act_1/broken.png',
         way:
             {
                 nameWayUp: "Надломленный",
@@ -225,7 +225,7 @@ export const characterCard_ACT_1_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/haracter_act_1/scoundrel.png',
+        img: '/img/cards/haracter_act_1/musician.png',
         way:
             {
                 nameWayUp: "Музыкант",
