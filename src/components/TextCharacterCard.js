@@ -25,7 +25,7 @@ function TextCharacterCard({ text }) {
     };
     
     return <div className={styles.Box}>
-        <div className={styles.Wrapper}>
+        <div>
             {parseText(text)}
         </div>
     </div>;
