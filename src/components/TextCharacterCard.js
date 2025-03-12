@@ -24,7 +24,11 @@ function TextCharacterCard({ text }) {
             });
     };
     
-    return <div className={styles.Box}>{parseText(text)}</div>;
+    return <div className={styles.Box}>
+        <div className={styles.Wrapper}>
+            {parseText(text)}
+        </div>
+    </div>;
 }
 
 export default TextCharacterCard;

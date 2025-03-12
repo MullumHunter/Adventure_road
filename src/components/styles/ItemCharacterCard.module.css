@@ -15,4 +15,8 @@
     margin: 0 auto;
     border: 1px solid #10ba66;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
 }
