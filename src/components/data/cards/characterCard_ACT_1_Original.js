@@ -18,7 +18,7 @@ export const characterCard_ACT_1_Original = [
                 ]
             }
         ,
-        text: "Вы можете взять \n эту карту, если у вас есть (month) или потратив (experience).",
+        text: "Вы можете взять \n эту карту, если у вас есть (month) \n или потратив (experience).",
         
         footer: {
             act: 1,

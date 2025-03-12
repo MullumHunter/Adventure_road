@@ -1,11 +1,9 @@
 import ItemCharacterCard from "./ItemCharacterCard";
 import styles from './styles/ItemCharacterCard.module.css';
-import style from "./styles/Way.module.css";
 
 function TextCharacterCard({ text }) {
-    // Функция для обработки текста
     const parseText = (text) => {
-        const parts = text.split(/(\(experience\)|\(month\)|\n)/g); // Разделяем текст по (experience), (month) и \n
+        const parts = text.split(/(\(experience\)|\(month\)|\n)/g);
         
         return parts.map((part, index) => {
             if (part === "(experience)") {
@@ -15,9 +13,9 @@ function TextCharacterCard({ text }) {
                 return <ItemCharacterCard key={index} type="month" />;
             }
             if (part === "\n") {
-                return <br key={index} />; // Если это символ новой строки, добавляем <br />
+                return <br key={index} />;
             }
-            return part; // Остальной текст возвращаем как есть
+            return part;
         });
     };
     

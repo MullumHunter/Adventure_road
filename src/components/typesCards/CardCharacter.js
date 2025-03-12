@@ -8,7 +8,7 @@ function CardCharacter({way, img, footer, text}) {
     return (
         <div className={`${styles.Card} ${styles.Character}`} style={{backgroundImage: `url(${img})`}}>
             <Way title={way.nameWayUp} attributes={way.prize} />
-            <div>
+            <div className={styles.Box}>
                 <TextCharacterCard text={text}/>
                 <FooterCard attributes={footer}/>
             </div>
