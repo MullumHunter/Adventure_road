@@ -28,5 +28,13 @@
     justify-content: space-between;
 }
 .Box {
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
+    background-size: auto 100%;
+    background-repeat: round;
+}
+.BoxFooter {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3px;
 }

@@ -11,7 +11,9 @@ function CardChallenge({id, nameCard, hard, img, ways, requirement, footer}) {
             <Way title={ways[0].nameWayUp} attributes={ways[0].prize} additional={ways[0].additional}/>
             <Requirements title={nameCard} runes={requirement} hard={hard}/>
             <Way title={ways[1].nameWayDown} attributes={ways[1].prize} additional={ways[1].additional}/>
-            <FooterCard attributes={footer}/>
+            <div className={styles.BoxFooter}>
+                <FooterCard attributes={footer}/>
+            </div>
         </div>
     );
 }
