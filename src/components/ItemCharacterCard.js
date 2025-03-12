@@ -1,18 +1,19 @@
-import styles from './styles/ItemCharacterCard.module.css'
+import styles from './styles/ItemCharacterCard.module.css';
+
+const images = {
+    dark_way: "/img/triumph_points/dark_way.png",
+    experience: "/img/itemCharacterCard/experience.png",
+    month: "/img/itemCharacterCard/moon.png",
+    intelligence: "/img/runes/intellect.png",
+    sun: "/img/runes/wisdom.png",
+    wisdom: "/img/triumph_points/sun.png",
+    strength: "/img/runes/strength.png",
+    constitution: "/img/runes/constitution.png",
+    card_hero: "/img/triumph_points/hero_card.png",
+};
+
 function ItemCharacterCard({ type }) {
-    switch (type) {
-        case "experience":
-            return <img className={styles.Item} src="/img/itemCharacterCard/experience.png" alt="experience" />;
-        case "month":
-            return <img className={styles.Item} src="/img/itemCharacterCard/moon.png" alt="month" />;
-        case "intelligence":
-            return <img className={styles.Item} src="/img/runes/intellect.png" alt="intelligence" />;
-        case "sun":
-            return <img className={styles.Item} src="/img/triumph_points/sun.png" alt="sun" />;
-        case "card_hero":
-            return <img className={styles.Item} src="/img/triumph_points/hero_card.png" alt="card_hero" />;
-        default:
-            return null;
-    }
+    return images[type] ? <img className={styles.Item} src={images[type]} alt={type} /> : null;
 }
+
 export default ItemCharacterCard;
