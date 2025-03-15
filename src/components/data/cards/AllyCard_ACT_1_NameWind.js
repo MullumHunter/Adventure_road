@@ -16,7 +16,7 @@ export const allyCard_ACT_1_NameWind =[
                 ]
             }
         ,
-        text: "Получив этого союзника, \n возьмите (card_hero)(card_hero)(card_hero), а затем сбросьте (card_hero)(card_hero).",
+        text: "Получив этого союзника, \n возьмите (card_hero)(card_hero)(card_hero), \n а затем сбросьте (card_hero)(card_hero).",
         
         footer: {
             act: 1,

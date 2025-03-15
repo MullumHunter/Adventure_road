@@ -106,7 +106,7 @@ export  const allyCard_ACT_1_Original = [
             {
                 nameWayUp: "Первая любовь",
                 prize: [
-                    historyItems.find(c => c.id === 2),
+                    historyItems.find(c => c.id === 0),
                 ]
             }
         ,
@@ -129,7 +129,7 @@ export  const allyCard_ACT_1_Original = [
             {
                 nameWayUp: "Друг детства",
                 prize: [
-                    prizeData.find(c => c.id === 1),
+                    historyItems.find(c => c.id === 1),
                 ]
             }
         ,
