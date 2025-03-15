@@ -1,7 +1,7 @@
 import style from './styles/Way.module.css'
 import Attributes from "./Attributes";
 import WayPaper from "./WayPaper";
-function Way({title, attributes, additional }) {
+function Way({title, attributes, additional, typePaper }) {
     const isLongTitle = title.length > 23;
     const isLongerTitle = title.length > 30;
     const hasNewLine = title.includes('\n');
@@ -13,7 +13,7 @@ function Way({title, attributes, additional }) {
                          ${isLongerTitle ? style.WayLonger : ""}
                          ${hasNewLine ? style.WayLong : ""}`.trim()}>
                 
-                <WayPaper title={title} addComplex={additional}/>
+                <WayPaper title={title} addComplex={additional} typePaper={typePaper}/>
                 <Attributes attributes={attributes}/>
             </div>
         </>

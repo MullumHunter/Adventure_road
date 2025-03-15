@@ -6,7 +6,7 @@ import styles from "../styles/CardChallenge.module.css";
 function CardAlly({way, img, footer, text}) {
     return(
         <div className={`${styles.Card} ${styles.Character}`} style={{backgroundImage: `url(${img})`}}>
-            <Way title={way.nameWayUp} attributes={way.prize} additional={true}/>
+            <Way title={way.nameWayUp} attributes={way.prize} additional={true} typePaper="ally"/>
             <div className={styles.Box} style={{backgroundImage: `url("/img/chain/paperBig.png"`}}>
                 <TextCharacterCard text={text}/>
                 <FooterCard attributes={footer}/>

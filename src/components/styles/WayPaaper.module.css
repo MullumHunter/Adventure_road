@@ -1,18 +1,18 @@
 .WayPaper {
-    width: 100%;
+    width: 94%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding-left: 12px;
+    left: 0;
     position: absolute;
     z-index: 1;
-    margin-right: 10px;
-    border-radius: 5px ;
+    border-radius:0 5px 5px 0;
 }
 .Text {
     width: 78%;
-    padding: 1px 0 1px 6px ;
     overflow: hidden;
     display: flex;
     align-items: center;
+    margin-left: 6px;
     gap: 4px;
+    min-height: 14px;
 }
