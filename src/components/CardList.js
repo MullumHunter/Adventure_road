@@ -1,6 +1,7 @@
 import CardChallenge from "./typesCards/CardСhallenge";
 import styles from "./styles/CardList.module.css";
 import CardCharacter from "./typesCards/CardCharacter";
+import CardAlly from "./typesCards/CardAlly";
 
 function CardList({ id, cards, nameLibrary }) {
     return (<>
@@ -18,6 +19,12 @@ function CardList({ id, cards, nameLibrary }) {
                                   ways={card.ways}
                                   footer={card.footer}/>
                     case "character": return <CardCharacter key={id}
+                                                            text={card.text}
+                                                            nameCard={card.nameCard}
+                                                            img={card.img}
+                                                            way={card.way}
+                                                            footer={card.footer}/>
+                    case "ally": return <CardAlly key={id}
                                                             text={card.text}
                                                             nameCard={card.nameCard}
                                                             img={card.img}
