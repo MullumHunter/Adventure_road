@@ -5,11 +5,12 @@ const images = {
     experience: "/img/itemCharacterCard/experience.png",
     card_hero: "/img/triumph_points/hero_card.png",
     month: "/img/itemCharacterCard/moon.png",
-    sun: "/img/runes/wisdom.png",
+    sun: "/img/triumph_points/sun.png",
     intelligence: "/img/runes/intellect.png",
-    wisdom: "/img/triumph_points/sun.png",
+    wisdom: "/img/runes/wisdom.png",
     strength: "/img/runes/strength.png",
     constitution: "/img/runes/constitution.png",
+    charisma: "/img/runes/charisma.png",
 };
 
 function ItemCharacterCard({ type }) {

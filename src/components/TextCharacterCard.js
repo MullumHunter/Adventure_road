@@ -12,10 +12,11 @@ function TextCharacterCard({ text }) {
         "(constitution)": "constitution",
         "(strength)": "strength",
         "(intelligence)": "intelligence",
+        "(charisma)": "charisma",
     };
     
     const parseText = (text) => {
-        return text.split(/(\(experience\)|\(strength\)|\(dark_way\)|\(constitution\)|\(intelligence\)|\(wisdom\)|\(sun\)|\(card_hero\)|\(month\)|\n)/g)
+        return text.split(/(\(experience\)|\(strength\)|\(dark_way\)|\(constitution\)|\(charisma\)|\(intelligence\)|\(wisdom\)|\(sun\)|\(card_hero\)|\(month\)|\n)/g)
             .map((part, index) => {
                 if (emojiMap[part]) {
                     return <ItemCharacterCard key={index} type={emojiMap[part]} />;
