@@ -1,11 +1,11 @@
 import Hard from "./Hard";
 import Chain from "./Chain";
 import Rune from "./Rune";
-import style from './styles/Requirements.module.css'
+import styles from './styles/Requirements.module.css'
 function Requirements({title ,runes, hard}) {
     return (
-        <div className={style.Container}>
-            <div className={style.Chain}>
+        <div className={styles.Container}>
+            <div className={styles.Chain}>
                 <Hard hard={hard}/>
                 
                 {runes.map((rune, index) => (
@@ -14,7 +14,7 @@ function Requirements({title ,runes, hard}) {
                         <Rune  rune={rune.img}/>
                     </>
                 ))}
-                <div className={style.Challenge}>{title}</div>
+                <div className={styles.Challenge}>{title}</div>
             </div>
         </div>
     )
