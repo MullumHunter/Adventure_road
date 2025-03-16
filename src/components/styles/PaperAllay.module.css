@@ -1,0 +1,14 @@
+.Paper {
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+
+}
+.P {
+    color: black;
+    font-size: 8px;
+    padding: 0 8px 4px 8px;
+    font-weight: bold;
+}

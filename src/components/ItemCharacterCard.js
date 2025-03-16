@@ -2,9 +2,9 @@ import styles from './styles/ItemCharacterCard.module.css';
 
 const images = {
     dark_way: "/img/triumph_points/dark_way.png",
-    experience: "/img/itemCharacterCard/experience.png",
+    experience: "/img/triumph_points/experience.png",
     card_hero: "/img/triumph_points/hero_card.png",
-    month: "/img/itemCharacterCard/moon.png",
+    month: "/img/triumph_points/moon.png",
     sun: "/img/triumph_points/sun.png",
     intelligence: "/img/runes/intellect.png",
     wisdom: "/img/runes/wisdom.png",

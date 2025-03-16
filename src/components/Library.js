@@ -5,7 +5,7 @@ function Library({ itemsLibrary }) {
         <>
             {itemsLibrary.map((lib) => (
                 <CardList
-                    // key={lib.id}
+                    key={lib.id}
                     id={lib.id}
                     nameLibrary={lib.nameLibrary}
                     cards={lib.cards}
