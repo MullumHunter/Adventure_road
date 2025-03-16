@@ -21,7 +21,7 @@ export const prizeData = [
         type: "way",
         id: 3,
         name: "dark_way2",
-        img: '/img/triumph_points/dark_way1.png'
+        img: '/img/triumph_points/dark_way2.png'
     },
     {
         type: "way",

@@ -536,7 +536,7 @@ export const trialsCard_ACT_1_Original = [
                 ]
             },
             {
-                nameWayDown: "Позаботиться \n о раненый",
+                nameWayDown: "Позаботиться \n о раненых",
                 additional: true,
                 prize: [
                     prizeData.find(c => c.id === 8),

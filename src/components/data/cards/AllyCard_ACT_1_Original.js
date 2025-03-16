@@ -110,7 +110,7 @@ export  const allyCard_ACT_1_Original = [
                 ]
             }
         ,
-        text: "Вы можете потратить пожертвовать \n этим союзником, чтобы \n  получить (month) и (experience)(experience).",
+        text: "Вы можете пожертвовать \n этим союзником, чтобы \n  получить (month) и (experience)(experience).",
         
         footer: {
             act: 1,

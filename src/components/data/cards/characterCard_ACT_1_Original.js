@@ -14,8 +14,8 @@ export const characterCard_ACT_1_Original = [
             {
                 nameWayUp: "Прохвост",
                 prize: [
-                    historyItems.find(c => c.id === 5),
-                    characteristicsData.find(c => c.id === 1),
+                    historyItems.find(c => c.id === 3),
+                    characteristicsData.find(c => c.id === 0),
                 ]
             }
         ,
@@ -39,7 +39,7 @@ export const characterCard_ACT_1_Original = [
                 nameWayUp: "Королевская кровь",
                 prize: [
                     historyItems.find(c => c.id === 5),
-                    characteristicsData.find(c => c.id === 1),
+                    characteristicsData.find(c => c.id === 3),
                 ]
             }
         ,
@@ -86,8 +86,8 @@ export const characterCard_ACT_1_Original = [
             {
                 nameWayUp: "Найденыш",
                 prize: [
-                    historyItems.find(c => c.id === 2),
-                    characteristicsData.find(c => c.id === 5),
+                    prizeData.find(c => c.id === 7),
+                    prizeData.find(c => c.id === 10),
                 ]
             }
         ,
@@ -111,7 +111,7 @@ export const characterCard_ACT_1_Original = [
                 nameWayUp: "Сирота",
                 prize: [
                     prizeData.find(c => c.id === 1),
-                    prizeData.find(c => c.id === 2),
+                    prizeData.find(c => c.id === 3),
                 ]
             }
         ,

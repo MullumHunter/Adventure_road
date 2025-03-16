@@ -43,7 +43,7 @@ export const allyCard_ACT_1_NameWind =[
         
         footer: {
             act: 1,
-            author: "Мартина Данека",
+            author: "Марта Данека",
             addition: addition.find(c => c.id === 1),
             cardNumber: "054",
             year: 2019,

@@ -12,7 +12,7 @@ export const trialsCard_ACT_1_NameWind = [
         id: generateUniqueId(),
         
         type: "challenge",
-        nameCard:'Поступление в университет',
+        nameCard:'Поступление в  Университет',
         hard: hardData.find(hard => hard.name === 3),
         img: '/img/cards/trials_act_1/enter_University.png',
         ways:[
@@ -285,7 +285,7 @@ export const trialsCard_ACT_1_NameWind = [
             nameWayDown: "Необъяснимый дар",
             additional: false,
             prize: [
-                historyItems.find(c => c.id === 0),
+                namesData.find(c => c.id === 0),
                 characteristicsData.find(c => c.id === 1),
             ]
         }

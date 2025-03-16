@@ -2,6 +2,7 @@ import {generateUniqueId} from "../../utils/GenerateId";
 import {prizeData} from "../PrizeData";
 import {characteristicsData} from "../characteristicsData";
 import {addition} from "../Addition";
+import {historyItems} from "../historyItems";
 
 export const characterCard_ACT_1_NameWind = [
     {
@@ -37,8 +38,8 @@ export const characterCard_ACT_1_NameWind = [
             {
                 nameWayUp: "Музыкант",
                 prize: [
-                    prizeData.find(c => c.id === 2),
-                    characteristicsData.find(c => c.id === 2),
+                    prizeData.find(c => c.id === 9),
+                    historyItems.find(c => c.id === 6),
                 ]
             }
         ,
