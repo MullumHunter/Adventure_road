@@ -14,7 +14,7 @@ export const trialsCard_ACT_1_NameWind = [
         type: "challenge",
         nameCard:'Поступление в  Университет',
         hard: hardData.find(hard => hard.name === 3),
-        img: '/img/cards/trials_act_1/enter_University.png',
+        img: '/img/cards/trials_act_1_nameWind/enter_University.png',
         ways:[
         {
             nameWayUp: "Стать э`лиром",
@@ -50,7 +50,7 @@ export const trialsCard_ACT_1_NameWind = [
         type: "challenge",
         nameCard:'Назойливый ухажер',
         hard: hardData.find(hard => hard.name === 4),
-        img: '/img/cards/trials_act_1/annoying_boyfriend.png',
+        img: '/img/cards/trials_act_1_nameWind/annoying_boyfriend.png',
         ways:[
         {
             nameWayUp: "Охмурить богатого дворянина",
@@ -87,7 +87,7 @@ export const trialsCard_ACT_1_NameWind = [
         type: "challenge",
         nameCard:'Шайка уличных мальчишек',
         hard: hardData.find(hard => hard.name === 4),
-        img: '/img/cards/trials_act_1/gang_of_street_urchins.png',
+        img: '/img/cards/trials_act_1_nameWind/gang_of_street_urchins.png',
         ways:[
         {
             nameWayUp: "Спасти невиновного",
@@ -124,7 +124,7 @@ export const trialsCard_ACT_1_NameWind = [
         type: "challenge",
         nameCard:'Выучить песню',
         hard: hardData.find(hard => hard.name === 4),
-        img: '/img/cards/trials_act_1/learn_a_song.png',
+        img: '/img/cards/trials_act_1_nameWind/learn_a_song.png',
         ways:[
         {
             nameWayUp: "«Песня о сэре Савиене»",
@@ -161,7 +161,7 @@ export const trialsCard_ACT_1_NameWind = [
         type: "challenge",
         nameCard:'Нападение чандрианов',
         hard: hardData.find(hard => hard.name === 4),
-        img: '/img/cards/trials_act_1/Chandrian_attack.png',
+        img: '/img/cards/trials_act_1_nameWind/Chandrian_attack.png',
         ways:[
         {
             nameWayUp: "С трудом спастись",
@@ -198,7 +198,7 @@ export const trialsCard_ACT_1_NameWind = [
         type: "challenge",
         nameCard:'Подсветье',
         hard: hardData.find(hard => hard.name === 3),
-        img: '/img/cards/trials_act_1/candlestick.png',
+        img: '/img/cards/trials_act_1_nameWind/candlestick.png',
         ways:[
         {
             nameWayUp: "Сбежать от всего мира",
@@ -234,7 +234,7 @@ export const trialsCard_ACT_1_NameWind = [
         type: "challenge",
         nameCard:'Трущебы берега',
         hard: hardData.find(hard => hard.name === 4),
-        img: '/img/cards/trials_act_1/coastal_slums.png',
+        img: '/img/cards/trials_act_1_nameWind/coastal_slums.png',
         ways:[
         {
             nameWayUp: "Выжить под открытым небом",
@@ -267,11 +267,11 @@ export const trialsCard_ACT_1_NameWind = [
     },
     {
         id: generateUniqueId(),
-        
+       
         type: "challenge",
         nameCard:'Уроки симпатии',
         hard: hardData.find(hard => hard.name === 4),
-        img: '/img/cards/trials_act_1/lessons_of_sympathy.png',
+        img: '/img/cards/trials_act_1_nameWind/lessons_of_sympathy.png',
         ways:[
         {
             nameWayUp: "Гениальная смекалка",
