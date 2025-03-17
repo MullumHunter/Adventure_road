@@ -9,10 +9,10 @@ function Requirements({title ,runes, hard, id}) {
                 <Hard hard={hard}/>
                 
                 {runes.map((rune, index) => (
-                    <>
+                    <div key={`container_${rune.id}_${id}_${index}`}>
                         <Chain key={`chain_${rune.id}_${id}_${index}`} />
                         <Rune key={`rune_${rune.id}_${id}_${index}`} rune={rune.img}/>
-                    </>
+                    </div>
                 ))}
                 <div className={styles.Challenge}>{title}</div>
             </div>
