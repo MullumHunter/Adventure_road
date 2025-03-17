@@ -14,8 +14,8 @@ export const characterCard_ACT_1_Original = [
             {
                 nameWayUp: "Прохвост",
                 prize: [
-                    historyItems.find(c => c.id === 3),
-                    characteristicsData.find(c => c.id === 0),
+                    historyItems["malefactor"],
+                    characteristicsData["dexterity"],
                 ]
             }
         ,
@@ -24,7 +24,7 @@ export const characterCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "048",
             year: 2018,
         }
@@ -38,8 +38,8 @@ export const characterCard_ACT_1_Original = [
             {
                 nameWayUp: "Королевская кровь",
                 prize: [
-                    historyItems.find(c => c.id === 5),
-                    characteristicsData.find(c => c.id === 3),
+                    historyItems["noble"],
+                    characteristicsData["charisma"],
                 ]
             }
         ,
@@ -48,7 +48,7 @@ export const characterCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "049",
             year: 2018,
         }
@@ -62,8 +62,8 @@ export const characterCard_ACT_1_Original = [
             {
                 nameWayUp: "Прилежный ученик",
                 prize: [
-                    historyItems.find(c => c.id === 2),
-                    characteristicsData.find(c => c.id === 5),
+                    historyItems["magic"],
+                    characteristicsData["intelligence"],
                 ]
             }
         ,
@@ -72,7 +72,7 @@ export const characterCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Джордан Жардин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "050",
             year: 2018,
         }
@@ -86,8 +86,8 @@ export const characterCard_ACT_1_Original = [
             {
                 nameWayUp: "Найденыш",
                 prize: [
-                    prizeData.find(c => c.id === 7),
-                    prizeData.find(c => c.id === 10),
+                    prizeData["hero_card"],
+                    prizeData["light_way3"],
                 ]
             }
         ,
@@ -96,7 +96,7 @@ export const characterCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "052",
             year: 2018,
         }
@@ -110,8 +110,8 @@ export const characterCard_ACT_1_Original = [
             {
                 nameWayUp: "Сирота",
                 prize: [
-                    prizeData.find(c => c.id === 1),
-                    prizeData.find(c => c.id === 3),
+                    prizeData["antihero_card"],
+                    prizeData["dark_way2"],
                 ]
             }
         ,
@@ -120,7 +120,7 @@ export const characterCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "053",
             year: 2018,
         }
@@ -134,8 +134,8 @@ export const characterCard_ACT_1_Original = [
             {
                 nameWayUp: "Искатель приключений",
                 prize: [
-                    historyItems.find(c => c.id === 4),
-                    characteristicsData.find(c => c.id === 2),
+                    historyItems["nature"],
+                    characteristicsData["constitution"],
                 ]
             }
         ,
@@ -144,7 +144,7 @@ export const characterCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Артем Демура",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "046",
             year: 2018,
         }
@@ -158,8 +158,8 @@ export const characterCard_ACT_1_Original = [
             {
                 nameWayUp: "Храбрец",
                 prize: [
-                    historyItems.find(c => c.id === 1),
-                    characteristicsData.find(c => c.id === 4),
+                    historyItems["justice"],
+                    characteristicsData["strength"],
                 ]
             }
         ,
@@ -168,7 +168,7 @@ export const characterCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "047",
             year: 2018,
         }
@@ -182,8 +182,8 @@ export const characterCard_ACT_1_Original = [
             {
                 nameWayUp: "Верующий",
                 prize: [
-                    historyItems.find(c => c.id === 0),
-                    characteristicsData.find(c => c.id === 1),
+                    historyItems["belief"],
+                    characteristicsData["wisdom"],
                 ]
             }
         ,
@@ -192,7 +192,7 @@ export const characterCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "051",
             year: 2018,
         }

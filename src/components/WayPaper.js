@@ -1,6 +1,7 @@
 import styles from './styles/WayPaaper.module.css'
 import AdditionalComplexity from "./AdditionalComplexity";
 function WayPaper({title,addComplex, typePaper}) {
+    
     const  backgroundImage = typePaper ==="ally"
         ? 'url("/img/chain/paperWay9.png")'
         : 'url("/img/chain/paperWay8.png")';

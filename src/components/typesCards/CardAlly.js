@@ -11,7 +11,6 @@ function CardAlly({way, img, footer, text}) {
             <PaperAllay/>
             
             <div className={styles.Box} style={{backgroundImage: `url("/img/chain/paperBig.png"`}}>
-                <div></div>
                 <TextCharacterCard text={text}/>
                 <FooterCard attributes={footer}/>
             </div>

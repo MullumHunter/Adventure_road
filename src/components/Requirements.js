@@ -2,7 +2,7 @@ import Hard from "./Hard";
 import Chain from "./Chain";
 import Rune from "./Rune";
 import styles from './styles/Requirements.module.css'
-function Requirements({title ,runes, hard}) {
+function Requirements({title ,runes, hard, id}) {
     return (
         <div className={styles.Container}>
             <div className={styles.Chain}>
@@ -10,8 +10,8 @@ function Requirements({title ,runes, hard}) {
                 
                 {runes.map((rune, index) => (
                     <>
-                        <Chain/>
-                        <Rune  rune={rune.img}/>
+                        <Chain key={`chain_${rune.id}_${id}_${index}`} />
+                        <Rune key={`rune_${rune.id}_${id}_${index}`} rune={rune.img}/>
                     </>
                 ))}
                 <div className={styles.Challenge}>{title}</div>

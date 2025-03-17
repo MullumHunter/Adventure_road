@@ -9,7 +9,7 @@ function CardChallenge({id, nameCard, hard, img, ways, requirement, footer}) {
             <img className={styles.Fabric} src='/img/chain/fabricMax5.png' alt="fabric"/>
             
             <Way title={ways[0].nameWayUp} attributes={ways[0].prize} additional={ways[0].additional}/>
-            <Requirements title={nameCard} runes={requirement} hard={hard}/>
+            <Requirements id={id} title={nameCard} runes={requirement} hard={hard}/>
             <Way title={ways[1].nameWayDown} attributes={ways[1].prize} additional={ways[1].additional}/>
             <div className={styles.BoxFooter}>
                 <FooterCard attributes={footer}/>

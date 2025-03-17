@@ -10,7 +10,7 @@ function CardList({ id, cards, nameLibrary }) {
             {
                 cards.map((card, _) => {
                 switch (card.type) {
-                    case "challenge": return<CardChallenge key={id}
+                    case "challenge": return<CardChallenge key={card.id}
                                   nameCard={card.nameCard}
                                   requirement={card.requirement}
                                   img={card.img}
@@ -18,13 +18,13 @@ function CardList({ id, cards, nameLibrary }) {
                                   hard={card.hard}
                                   ways={card.ways}
                                   footer={card.footer}/>
-                    case "character": return <CardCharacter key={id}
+                    case "character": return <CardCharacter key={card.id}
                                                             text={card.text}
                                                             nameCard={card.nameCard}
                                                             img={card.img}
                                                             way={card.way}
                                                             footer={card.footer}/>
-                    case "ally": return <CardAlly key={id}
+                    case "ally": return <CardAlly key={card.id}
                                                             text={card.text}
                                                             nameCard={card.nameCard}
                                                             img={card.img}

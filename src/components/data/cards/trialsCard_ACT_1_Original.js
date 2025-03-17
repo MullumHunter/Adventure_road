@@ -11,34 +11,34 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Магическое испытание',
-        hard: hardData.find(hard => hard.name === 4),
+        hard: hardData["4"],
         img: '/img/cards/trials_act_1/magical_tеst.png',
         ways:[
             {
                 nameWayUp: "Склонность \n к светлой магии",
                 additional: false,
                 prize: [
-                    historyItems.find(c => c.id === 2),
-                    characteristicsData.find(c => c.id === 5),
+                    historyItems["magic"],
+                    characteristicsData["intelligence"],
                 ]
             },
             {
                 nameWayDown: "Талант в темных искусствах",
                 additional: false,
                 prize: [
-                    prizeData.find(c => c.id === 1),
-                    characteristicsData.find(c => c.id === 3),
+                    prizeData["antihero_card"],
+                    characteristicsData["charisma"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 5),
-            characteristicsData.find(c => c.id === 3),
+            characteristicsData["intelligence"],
+            characteristicsData["charisma"],
         ],
         footer: {
             act: 1,
             author: "Шон Робинсон",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["wind"],
             cardNumber: "067",
             year: 2018,
         }
@@ -48,33 +48,33 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Кошелек или жизнь',
-        hard: hardData.find(hard => hard.name === 3),
+        hard: hardData["3"],
         img: '/img/cards/trials_act_1/money_or_life.png',
         ways:[
             {
                 nameWayUp: "Усмирить грабителя",
                 additional: false,
                 prize: [
-                    characteristicsData.find(c => c.id === 3),
+                    characteristicsData["charisma"],
                 ]
             },
             {
                 nameWayDown: "Защитить \n свою семью",
                 additional: true,
                 prize: [
-                    historyItems.find(c => c.id === 1),
-                    characteristicsData.find(c => c.id === 2),
+                    historyItems["justice"],
+                    characteristicsData["constitution"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 2),
-            characteristicsData.find(c => c.id === 3),
+            characteristicsData["constitution"],
+            characteristicsData["charisma"],
         ],
         footer: {
             act: 1,
             author: "Шон Турлоу",
-            addition: addition.find(c => c.id === 0),
+            addition: addition['original'],
             cardNumber: "065",
             year: 2018,
         }
@@ -84,34 +84,34 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Академия',
-        hard: hardData.find(hard => hard.name === 4),
+        hard: hardData["4"],
         img: '/img/cards/trials_act_1/academy.png',
         ways:[
             {
                 nameWayUp: "Преуспеть в учебе",
                 additional: false,
                 prize: [
-                    historyItems.find(c => c.id === 2),
-                    characteristicsData.find(c => c.id === 5),
+                    historyItems["magic"],
+                    characteristicsData["intelligence"],
                 ]
             },
             {
                 nameWayDown: "Усвоить важный урок",
                 additional: false,
                 prize: [
-                    prizeData.find(c => c.id === 7),
-                    characteristicsData.find(c => c.id === 1),
+                    prizeData["hero_card"],
+                    characteristicsData["wisdom"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 5),
-            characteristicsData.find(c => c.id === 1),
+            characteristicsData["intelligence"],
+            characteristicsData["wisdom"],
         ],
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "066",
             year: 2018,
         }
@@ -121,34 +121,34 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Уличная драка',
-        hard: hardData.find(hard => hard.name === 4),
+        hard: hardData["4"],
         img: '/img/cards/trials_act_1/street_fight.png',
         ways:[
             {
                 nameWayUp: "Научиться \n подлым уловкам",
                 additional: false,
                 prize: [
-                    historyItems.find(c => c.id === 3),
-                    characteristicsData.find(c => c.id === 0),
+                    historyItems["malefactor"],
+                    characteristicsData["dexterity"],
                 ]
             },
             {
                 nameWayDown: "Стать завзятым \n бойцом",
                 additional: false,
                 prize: [
-                    prizeData.find(c => c.id === 1),
-                    characteristicsData.find(c => c.id === 4),
+                    prizeData["antihero_card"],
+                    characteristicsData["strength"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 4),
-            characteristicsData.find(c => c.id === 0),
+            characteristicsData["strength"],
+            characteristicsData["dexterity"],
         ],
         footer: {
             act: 1,
             author: "Кристиан Бискап",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "054",
             year: 2018,
         }
@@ -158,34 +158,34 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Призыв к оружию',
-        hard: hardData.find(hard => hard.name === 4),
+        hard: hardData["4"],
         img: '/img/cards/trials_act_1/call_to_arms.png',
         ways:[
             {
                 nameWayUp: "Вступить \n в королевскую армию",
                 additional: false,
                 prize: [
-                    prizeData.find(c => c.id === 8),
-                    characteristicsData.find(c => c.id === 4),
+                    prizeData["light_way1"],
+                    characteristicsData["strength"],
                 ]
             },
             {
                 nameWayDown: "Защищать \n  родной дом",
                 additional: false,
                 prize: [
-                    historyItems.find(c => c.id === 1),
-                    characteristicsData.find(c => c.id === 2),
+                    historyItems["justice"],
+                    characteristicsData["constitution"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 4),
-            characteristicsData.find(c => c.id === 2),
+            characteristicsData["strength"],
+            characteristicsData["constitution"],
         ],
         footer: {
             act: 1,
             author: "Пол Скотт Канаван",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "055",
             year: 2018,
         }
@@ -195,34 +195,34 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Опасный артефакт',
-        hard: hardData.find(hard => hard.name === 4),
+        hard: hardData["4"],
         img: '/img/cards/trials_act_1/dangerous_artifact.png',
         ways:[
             {
                 nameWayUp: "Подчинить силу Тьмы",
                 additional: false,
                 prize: [
-                    prizeData.find(c => c.id === 1),
-                    characteristicsData.find(c => c.id === 5),
+                    prizeData["antihero_card"],
+                    characteristicsData["intelligence"],
                 ]
             },
             {
                 nameWayDown: "Устоять перед \n искушением",
                 additional: false,
                 prize: [
-                    historyItems.find(c => c.id === 0),
-                    characteristicsData.find(c => c.id === 2),
+                    historyItems["belief"],
+                    characteristicsData["constitution"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 2),
-            characteristicsData.find(c => c.id === 5),
+            characteristicsData["constitution"],
+            characteristicsData["intelligence"],
         ],
         footer: {
             act: 1,
             author: "Артем Демура",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "063",
             year: 2018,
         }
@@ -232,34 +232,34 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Суровая зима',
-        hard: hardData.find(hard => hard.name === 4),
+        hard: hardData["4"],
         img: '/img/cards/trials_act_1/harsh_winter.png',
         ways:[
             {
                 nameWayUp: "Украсть, чтобы выжить",
                 additional: false,
                 prize: [
-                    prizeData.find(c => c.id === 2),
-                    characteristicsData.find(c => c.id === 0),
+                    prizeData["dark_way1"],
+                    characteristicsData["dexterity"],
                 ]
             },
             {
                 nameWayDown: "Отправиться \n на поиска еды",
                 additional: false,
                 prize: [
-                    historyItems.find(c => c.id === 4),
-                    characteristicsData.find(c => c.id === 2),
+                    historyItems["nature"],
+                    characteristicsData["constitution"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 0),
-            characteristicsData.find(c => c.id === 2),
+            characteristicsData["dexterity"],
+            characteristicsData["constitution"],
         ],
         footer: {
             act: 1,
             author: "Шон Робинсон",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "059",
             year: 2018,
         }
@@ -269,33 +269,33 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Гильдия воров',
-        hard: hardData.find(hard => hard.name === 3),
+        hard: hardData["3"],
         img: '/img/cards/trials_act_1/guild_of_pilferers.png',
         ways:[
             {
                 nameWayUp: "Выучиться на шпиона",
                 additional: false,
                 prize: [
-                    characteristicsData.find(c => c.id === 3),
+                    characteristicsData["charisma"],
                 ]
             },
             {
                 nameWayDown: "Выучиться \n на убийцу",
                 additional: true,
                 prize: [
-                    historyItems.find(c => c.id === 3),
-                    characteristicsData.find(c => c.id === 0),
+                    historyItems["malefactor"],
+                    characteristicsData["dexterity"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 0),
-            characteristicsData.find(c => c.id === 3),
+            characteristicsData["dexterity"],
+            characteristicsData["charisma"],
         ],
         footer: {
             act: 1,
             author: "Макс Бедуленко",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "062",
             year: 2018,
         }
@@ -305,34 +305,34 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Пропавший без вести',
-        hard: hardData.find(hard => hard.name === 4),
+        hard: hardData["4"],
         img: '/img/cards/trials_act_1/missing.png',
         ways:[
             {
                 nameWayUp: "Найти пропавшее дитя",
                 additional: false,
                 prize: [
-                    historyItems.find(c => c.id === 4),
-                    characteristicsData.find(c => c.id === 1),
+                    historyItems["nature"],
+                    characteristicsData["wisdom"],
                 ]
             },
             {
                 nameWayDown: "Выбираться самому",
                 additional: false,
                 prize: [
-                    prizeData.find(c => c.id === 7),
-                    characteristicsData.find(c => c.id === 4),
+                    prizeData["hero_card"],
+                    characteristicsData["strength"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 4),
-            characteristicsData.find(c => c.id === 1),
+            characteristicsData["strength"],
+            characteristicsData["wisdom"],
         ],
         footer: {
             act: 1,
             author: "Артем Демура",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "056",
             year: 2018,
         }
@@ -342,34 +342,34 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Подготовка к войне',
-        hard: hardData.find(hard => hard.name === 4),
+        hard: hardData["4"],
         img: '/img/cards/trials_act_1/war_preparations.png',
         ways:[
             {
-                nameWayUp: "Продумать оборону города",
+                nameWayUp: "Продумать оборону \n города",
                 additional: false,
                 prize: [
-                    historyItems.find(c => c.id === 5),
-                    characteristicsData.find(c => c.id === 5),
+                    historyItems["noble"],
+                    characteristicsData["intelligence"],
                 ]
             },
             {
                 nameWayDown: "Возвести укрепления",
                 additional: false,
                 prize: [
-                    prizeData.find(c => c.id === 7),
-                    characteristicsData.find(c => c.id === 4),
+                    prizeData["hero_card"],
+                    characteristicsData["strength"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 4),
-            characteristicsData.find(c => c.id === 5),
+            characteristicsData["strength"],
+            characteristicsData["intelligence"],
         ],
         footer: {
             act: 1,
             author: "Макс Бедуленко",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "057",
             year: 2018,
         }
@@ -379,34 +379,34 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Детская вражда',
-        hard: hardData.find(hard => hard.name === 4),
+        hard: hardData["4"],
         img: '/img/cards/trials_act_1/childish_feud.png',
         ways:[
             {
                 nameWayUp: "Подружиться с врагом",
                 additional: false,
                 prize: [
-                    historyItems.find(c => c.id === 5),
-                    characteristicsData.find(c => c.id === 3),
+                    historyItems["noble"],
+                    characteristicsData["charisma"],
                 ]
             },
             {
                 nameWayDown: "Сокрушить соперника",
                 additional: false,
                 prize: [
-                    historyItems.find(c => c.id === 3),
-                    characteristicsData.find(c => c.id === 4),
+                    historyItems["malefactor"],
+                    characteristicsData["strength"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 4),
-            characteristicsData.find(c => c.id === 3),
+            characteristicsData["strength"],
+            characteristicsData["charisma"],
         ],
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "058",
             year: 2018,
         }
@@ -416,33 +416,33 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Неупокоенный дух',
-        hard: hardData.find(hard => hard.name === 3),
+        hard: hardData["3"],
         img: '/img/cards/trials_act_1/restless_spirit.png',
         ways:[
             {
                 nameWayUp: "Изгнать призрака",
                 additional: false,
                 prize: [
-                    characteristicsData.find(c => c.id === 1),
+                    characteristicsData["wisdom"],
                 ]
             },
             {
                 nameWayDown: "Заручиться \n защитой духа",
                 additional: true,
                 prize: [
-                    historyItems.find(c => c.id === 0),
-                    characteristicsData.find(c => c.id === 3),
+                    historyItems["belief"],
+                    characteristicsData["charisma"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 1),
-            characteristicsData.find(c => c.id === 3),
+            characteristicsData["wisdom"],
+            characteristicsData["charisma"],
         ],
         footer: {
             act: 1,
             author: "Спенсер Идальго",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "068",
             year: 2018,
         }
@@ -452,33 +452,33 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Лесная чаща',
-        hard: hardData.find(hard => hard.name === 3),
+        hard: hardData["3"],
         img: '/img/cards/trials_act_1/forest_thicket.png',
         ways:[
             {
                 nameWayUp: "Скрыться от преследователей",
                 additional: false,
                 prize: [
-                    characteristicsData.find(c => c.id === 0),
+                    characteristicsData["dexterity"],
                 ]
             },
             {
                 nameWayDown: "Отыскать место силы",
                 additional: true,
                 prize: [
-                    prizeData.find(c => c.id === 7),
-                    characteristicsData.find(c => c.id === 0),
+                    prizeData["hero_card"],
+                    characteristicsData["dexterity"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 0),
-            characteristicsData.find(c => c.id === 1),
+            characteristicsData["dexterity"],
+            characteristicsData["wisdom"],
         ],
         footer: {
             act: 1,
             author: "Спенсер Идальго",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "061",
             year: 2018,
         }
@@ -488,34 +488,34 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Запретные знания',
-        hard: hardData.find(hard => hard.name === 4),
+        hard: hardData["4"],
         img: '/img/cards/trials_act_1/forbidden_knowledge.png',
         ways:[
             {
                 nameWayUp: "Найти забытые \n предания",
                 additional: false,
                 prize: [
-                    historyItems.find(c => c.id === 2),
-                    characteristicsData.find(c => c.id === 0),
+                    historyItems["magic"],
+                    characteristicsData["dexterity"],
                 ]
             },
             {
                 nameWayDown: "Познать темные тайны",
                 additional: false,
                 prize: [
-                    prizeData.find(c => c.id === 1),
-                    characteristicsData.find(c => c.id === 5),
+                    prizeData["antihero_card"],
+                    characteristicsData["intelligence"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 0),
-            characteristicsData.find(c => c.id === 5),
+            characteristicsData["dexterity"],
+            characteristicsData["intelligence"],
         ],
         footer: {
             act: 1,
             author: "Крис Колд",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "060",
             year: 2018,
         }
@@ -525,33 +525,33 @@ export const trialsCard_ACT_1_Original = [
         
         type: "challenge",
         nameCard:'Бушующее пламя>',
-        hard: hardData.find(hard => hard.name === 3),
+        hard: hardData["3"],
         img: '/img/cards/trials_act_1/raging_flames.png',
         ways:[
             {
                 nameWayUp: "Выжить в огне",
                 additional: false,
                 prize: [
-                    characteristicsData.find(c => c.id === 2),
+                    characteristicsData["constitution"],
                 ]
             },
             {
                 nameWayDown: "Позаботиться \n о раненых",
                 additional: true,
                 prize: [
-                    prizeData.find(c => c.id === 8),
-                    characteristicsData.find(c => c.id === 1),
+                    prizeData["light_way1"],
+                    characteristicsData["wisdom"],
                 ]
             }
         ],
         requirement: [
-            characteristicsData.find(c => c.id === 2),
-            characteristicsData.find(c => c.id === 1),
+            characteristicsData["constitution"],
+            characteristicsData["wisdom"],
         ],
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "064",
             year: 2018,
         }

@@ -13,7 +13,7 @@ export  const allyCard_ACT_1_Original = [
             {
                 nameWayUp: "Мастер меча",
                 prize: [
-                    historyItems.find(c => c.id === 5),
+                    historyItems["noble"],
                 ]
             }
         ,
@@ -22,7 +22,7 @@ export  const allyCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "161",
             year: 2018,
         }
@@ -36,7 +36,7 @@ export  const allyCard_ACT_1_Original = [
             {
                 nameWayUp: "Питомец",
                 prize: [
-                    historyItems.find(c => c.id === 4),
+                    historyItems["nature"],
                 ]
             }
         ,
@@ -45,7 +45,7 @@ export  const allyCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Артем Демура",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "165",
             year: 2018,
         }
@@ -59,8 +59,8 @@ export  const allyCard_ACT_1_Original = [
             {
                 nameWayUp: "Жестокий господин",
                 prize: [
-                    historyItems.find(c => c.id === 3),
-                    prizeData.find(c => c.id === 2)
+                    historyItems["malefactor"],
+                    prizeData["dark_way1"]
                 ]
             }
         ,
@@ -69,7 +69,7 @@ export  const allyCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Артем Демура",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "162",
             year: 2018,
         }
@@ -83,7 +83,7 @@ export  const allyCard_ACT_1_Original = [
             {
                 nameWayUp: "Наставник",
                 prize: [
-                    historyItems.find(c => c.id === 2),
+                    historyItems["magic"],
                 ]
             }
         ,
@@ -92,7 +92,7 @@ export  const allyCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "166",
             year: 2018,
         }
@@ -106,7 +106,7 @@ export  const allyCard_ACT_1_Original = [
             {
                 nameWayUp: "Первая любовь",
                 prize: [
-                    historyItems.find(c => c.id === 0),
+                    historyItems["belief"],
                 ]
             }
         ,
@@ -115,7 +115,7 @@ export  const allyCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "164",
             year: 2018,
         }
@@ -129,7 +129,7 @@ export  const allyCard_ACT_1_Original = [
             {
                 nameWayUp: "Друг детства",
                 prize: [
-                    historyItems.find(c => c.id === 1),
+                    historyItems["justice"],
                 ]
             }
         ,
@@ -138,7 +138,7 @@ export  const allyCard_ACT_1_Original = [
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 0),
+            addition: addition["original"],
             cardNumber: "163",
             year: 2018,
         }

@@ -1,5 +1,5 @@
 import {generateUniqueId} from "../../utils/GenerateId";
-import {prizeData} from "../PrizeData";
+import {prizeData, prizeDataMap} from "../PrizeData";
 import {addition} from "../Addition";
 
 export const allyCard_ACT_1_NameWind =[
@@ -12,7 +12,7 @@ export const allyCard_ACT_1_NameWind =[
             {
                 nameWayUp: "Лудильщик",
                 prize: [
-                    prizeData.find(c => c.id === 8),
+                    prizeData["light_way1"],
                 ]
             }
         ,
@@ -21,7 +21,7 @@ export const allyCard_ACT_1_NameWind =[
         footer: {
             act: 1,
             author: "Адам Дж. Мартин",
-            addition: addition.find(c => c.id === 1),
+            addition: addition["original"],
             cardNumber: "055",
             year: 2019,
         }
@@ -35,7 +35,7 @@ export const allyCard_ACT_1_NameWind =[
             {
                 nameWayUp: "Мать и отец",
                 prize: [
-                    prizeData.find(c => c.id === 9),
+                    prizeData["light_way2"],
                 ]
             }
         ,
@@ -44,7 +44,7 @@ export const allyCard_ACT_1_NameWind =[
         footer: {
             act: 1,
             author: "Марта Данека",
-            addition: addition.find(c => c.id === 1),
+            addition: addition["original"],
             cardNumber: "054",
             year: 2019,
         }
