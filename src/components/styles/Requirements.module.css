@@ -12,6 +12,11 @@
     position: relative;
     z-index: 2;
 }
+.Chains{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .Challenge {
     margin-top: 5px;
     font-size: 8px;
