@@ -9,7 +9,7 @@ export const characterCard_ACT_2_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/allay_act_2/enlightened.png',
+        img: '/img/cards/haracter_act_2/enlightened.png',
         way:
             {
                 nameWayUp: "Просвещенный",
@@ -34,7 +34,7 @@ export const characterCard_ACT_2_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/allay_act_2/vindictive.png',
+        img: '/img/cards/haracter_act_2/vindictive.png',
         way:
             {
                 nameWayUp: "Мстительный",
@@ -58,7 +58,7 @@ export const characterCard_ACT_2_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/allay_act_2/noble.png',
+        img: '/img/cards/haracter_act_2/noble.png',
         way:
             {
                 nameWayUp: "Благородный",
@@ -82,7 +82,7 @@ export const characterCard_ACT_2_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/allay_act_2/criminal.png',
+        img: '/img/cards/haracter_act_2/criminal.png',
         way:
             {
                 nameWayUp: "Преступник",
@@ -106,7 +106,7 @@ export const characterCard_ACT_2_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/allay_act_2/dirt_to_princes.png',
+        img: '/img/cards/haracter_act_2/dirt_to_princes.png',
         way:
             {
                 nameWayUp: "Из грязи в князи",
@@ -130,7 +130,7 @@ export const characterCard_ACT_2_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/allay_act_2/inventor.png',
+        img: '/img/cards/haracter_act_2/inventor.png',
         way:
             {
                 nameWayUp: "Изобретатель",
@@ -155,7 +155,7 @@ export const characterCard_ACT_2_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/allay_act_2/prophet.png',
+        img: '/img/cards/haracter_act_2/prophet.png',
         way:
             {
                 nameWayUp: "Пророк",
@@ -180,7 +180,7 @@ export const characterCard_ACT_2_Original = [
         id: generateUniqueId(),
         
         type: "character",
-        img: '/img/cards/allay_act_2/bitter_loss.png',
+        img: '/img/cards/haracter_act_2/bitter_loss.png',
         way:
             {
                 nameWayUp: "Горькая утрата",
