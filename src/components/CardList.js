@@ -2,6 +2,7 @@ import CardChallenge from "./typesCards/CardСhallenge";
 import styles from "./styles/CardList.module.css";
 import CardCharacter from "./typesCards/CardCharacter";
 import CardAlly from "./typesCards/CardAlly";
+import CardVillain from "./typesCards/CardVillain";
 
 function CardList({ id, cards, nameLibrary }) {
     return (<>
@@ -30,6 +31,22 @@ function CardList({ id, cards, nameLibrary }) {
                                                             img={card.img}
                                                             way={card.way}
                                                             footer={card.footer}/>
+                    case "challenge": return<CardChallenge key={card.id}
+                                                           nameCard={card.nameCard}
+                                                           requirement={card.requirement}
+                                                           img={card.img}
+                                                           id={card.id}
+                                                           hard={card.hard}
+                                                           ways={card.ways}
+                                                           footer={card.footer}/>
+                    case "villian": return<CardVillain key={card.key}
+                                                       text={card.text}
+                                                       requirement={card.requirement}
+                                                       img={card.img}
+                                                       id={card.id}
+                                                       hard={card.hard}
+                                                       way={card.way}
+                                                       footer={card.footer}/>
                     default: return null;
                 }
             })}

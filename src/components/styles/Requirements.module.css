@@ -1,14 +1,17 @@
 .Container {
+    top: -240px;
+    left: -1px;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-bottom: 25px;
 }
 .Chain {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 4px;
+    /*padding-left: 4px;*/
     position: relative;
     z-index: 2;
 }
@@ -18,7 +21,7 @@
     align-items: center;
 }
 .Challenge {
-    margin-top: 5px;
+    /*margin-top: 5px;*/
     font-size: 8px;
     display: inline-block;
     white-space: nowrap;

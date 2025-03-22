@@ -42,7 +42,7 @@ export const trialsCard_ACT_1_NameWind = [
             addition: addition["wind"],
             cardNumber: "018",
             year: 2019,
-    }
+        }
     },
     {
         id: generateUniqueId(),
