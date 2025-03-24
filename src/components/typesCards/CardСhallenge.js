@@ -2,7 +2,7 @@ import styles from "../styles/CardChallenge.module.css";
 import Way from "../Way";
 import Requirements from "../Requirements";
 import FooterCard from "../FooterCard";
-import PaperVillain from "../PaperVillain";
+import PaperNPC from "../PaperNPC";
 
 function CardChallenge({id, nameCard, hard, img, ways, requirement, footer}) {
     return (
