@@ -1,4 +1,4 @@
-import styles from './styles/PaperAllay.module.css'
+import styles from './styles/PaperNPC.module.css'
 function PaperAllay() {
     return(
         <div className={styles.Paper}  style={{ backgroundImage: `url(/img/chain/paper_allay.png)`}}>

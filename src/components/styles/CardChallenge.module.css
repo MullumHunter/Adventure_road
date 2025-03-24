@@ -1,3 +1,11 @@
+.top {
+    position: relative;
+    width: 100%;
+    border: 1px solid #41b5ca;
+}
+.WayPaper {
+    border: 1px solid #f11097;
+}
 .Card {
     width: 172px;
     height: 280px;

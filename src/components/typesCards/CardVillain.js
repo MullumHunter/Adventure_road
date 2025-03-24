@@ -9,16 +9,21 @@ import Fabric from "../Fabric";
 function CardVillain({way, img, footer, text, id, requirement, hard}) {
     return (
         <div className={`${styles.Card} ${styles.Character}`} style={{backgroundImage: `url(${img})`}}>
+            <div className={styles.top}>
+                <div className={styles.WayPaper}>
+                    <Way title={way.nameWayUp} attributes={way.prize} typePaper="villain"/>
+                    <PaperNPC/>
+                </div>
+                
+                <Fabric>
+                    <Requirements id={id} title={""} runes={requirement} hard={hard}/>
+                </Fabric>
+            </div>
             
-            <Way title={way.nameWayUp} attributes={way.prize} typePaper="villain"/>
-            <Fabric>
-                {/*<Requirements id={id} title={""} runes={requirement} hard={hard}/>*/}
-            </Fabric>
-                <PaperNPC/>
-            {/*<div className={styles.Box} style={{backgroundImage: `url("/img/chain/paperBig.png"`}}>*/}
-            {/*    <TextCharacterCard text={text}/>*/}
-            {/*    <FooterCard attributes={footer}/>*/}
-            {/*</div>*/}
+            <div className={styles.Box} style={{backgroundImage: `url("/img/chain/paperBig.png"`}}>
+                <TextCharacterCard text={text}/>
+                <FooterCard attributes={footer}/>
+            </div>
         </div>
     )
 }

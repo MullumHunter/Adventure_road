@@ -7,16 +7,14 @@ function Way({title, attributes, additional, typePaper }) {
     const hasNewLine = title.includes('\n');
     
     return(
-        <>
-            <div className={`${styles.Way}
-                         ${isLongTitle ? styles.WayLong : ""}
-                         ${isLongerTitle ? styles.WayLonger : ""}
-                         ${hasNewLine ? styles.WayLong : ""}`.trim()}>
-                
-                <WayPaper title={title} addComplex={additional} typePaper={typePaper}/>
-                <Attributes attributes={attributes}/>
-            </div>
-        </>
+        <div className={`${styles.Way}
+                     ${isLongTitle ? styles.WayLong : ""}
+                     ${isLongerTitle ? styles.WayLonger : ""}
+                     ${hasNewLine ? styles.WayLong : ""}`.trim()}>
+            
+            <WayPaper title={title} addComplex={additional} typePaper={typePaper}/>
+            <Attributes attributes={attributes}/>
+        </div>
     )
 }
 
