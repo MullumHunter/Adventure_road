@@ -2,9 +2,9 @@ import Hard from "./Hard";
 import Chain from "./Chain";
 import Rune from "./Rune";
 import styles from './styles/Requirements.module.css'
-function Requirements({title ,runes, hard, id}) {
+function Requirements({title ,runes, hard, id, style}) {
     return (
-        <div className={styles.Container}>
+        <div className={styles.Container} style={style}>
             <div className={styles.Chain}>
                 <Hard hard={hard}/>
                 

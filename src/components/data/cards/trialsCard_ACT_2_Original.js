@@ -235,42 +235,6 @@ export const trialsCard_ACT_2_Original = [
         id: generateUniqueId(),
         
         type: "challenge",
-        nameCard:"Просто хороший День",
-        hard: hardData["3"],
-        img: '/img/cards/Kolya2.png',
-        ways:[
-            {
-                nameWayUp: "Встретиться с друзьями",
-                additional: false,
-                prize: [
-                    prizeData["light_way3"],
-                    characteristicsData["wisdom"],
-                ]
-            },
-            {
-                nameWayDown: "Сидеть молча на кухне",
-                additional: false,
-                prize: [
-                    prizeData["antihero_card"],
-                    historyItems["malefactor"]
-                ]
-            }
-        ],
-        requirement: [
-            characteristicsData["strength"],
-        ],
-        footer: {
-            act: 1,
-            author: "Жизненный Случай",
-            addition: addition["original"],
-            cardNumber: "18 марта",
-            year: 2025,
-        }
-    },
-    {
-        id: generateUniqueId(),
-        
-        type: "challenge",
         nameCard:"Дерзкое ограбление",
         hard: hardData["5"],
         img: '/img/cards/trials_act_2/robbery.png',

@@ -26,7 +26,7 @@ export const aggregatorCard = [
     // ...characterCard_ACT_2_Original,
     // ...characterCard_ACT_2_NameWind,
     // ...AllyCard_ACT_2_Original,
-//     ...AllyCard_ACT_2_NameWind,
+    // ...AllyCard_ACT_2_NameWind,
     
     ...villianCard_ACT_2_Original,
     
