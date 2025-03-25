@@ -70,6 +70,6 @@ export const prizeData = {
         type: "way",
         id: 11,
         name: "light_way4",
-        img: '/img/triumph_points/light_way3.png'
+        img: '/img/triumph_points/light_way4.png'
     },
 }
