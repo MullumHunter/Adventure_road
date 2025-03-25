@@ -1,10 +1,9 @@
 .top {
     position: relative;
     width: 100%;
-    border: 1px solid #41b5ca;
 }
 .WayPaper {
-    border: 1px solid #f11097;
+    position: relative;
 }
 .Card {
     width: 172px;

@@ -3,6 +3,8 @@
     background-position: bottom center;
     background-size: 15px;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
+    z-index: 2;
+    top: -6px;
     max-width: 18px;
 }

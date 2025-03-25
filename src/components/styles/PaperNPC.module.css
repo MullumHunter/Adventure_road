@@ -6,8 +6,8 @@
     align-items: center;
     width: max-content;
     position: absolute;
-    /*top: 22px;*/
-    /*left: -2px;*/
+    bottom: -13px;
+    z-index: 1;
 }
 .P {
     color: black;

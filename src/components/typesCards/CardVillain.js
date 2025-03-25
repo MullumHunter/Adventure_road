@@ -13,11 +13,11 @@ function CardVillain({way, img, footer, text, id, requirement, hard}) {
                 <div className={styles.WayPaper}>
                     <Way title={way.nameWayUp} attributes={way.prize} typePaper="villain"/>
                     <PaperNPC/>
+                    <Fabric style={{paddingTop: "30px"}}>
+                        <Requirements id={id} title={""} runes={requirement} hard={hard}/>
+                    </Fabric>
                 </div>
                 
-                <Fabric>
-                    <Requirements id={id} title={""} runes={requirement} hard={hard}/>
-                </Fabric>
             </div>
             
             <div className={styles.Box} style={{backgroundImage: `url("/img/chain/paperBig.png"`}}>

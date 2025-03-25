@@ -10,8 +10,7 @@ export const villianCard_ACT_2_Original = [
         
         type: "villian",
         hard: hardData["6"],
-        img: "",
-        // img: '/img/cards/trials_act_1_nameWind/lessons_of_sympathy.png',
+        img: '/img/cards/villian_act_2/fierce_wolf.png',
         way:
             {
                 nameWayUp:"Лютый волк",
@@ -25,7 +24,6 @@ export const villianCard_ACT_2_Original = [
         text: "Преодолев это испытание, \n получите (sun).",
         
         requirement: [
-            characteristicsData["constitution"],
             characteristicsData["constitution"],
             characteristicsData["intelligence"],
         ],
