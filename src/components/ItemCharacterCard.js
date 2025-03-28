@@ -17,9 +17,9 @@ const images = {
     intelligence:"/img/runes/intellect.png",
     
     antihero_card:"/img/triumph_points/antihero_card.png",
-    card_hero:"/img/triumph_points/hero_card.png",
+    hero_card:"/img/triumph_points/hero_card.png",
     dark_way:"/img/triumph_points/dark_way.png",
-    light_way:"",
+    light_way:"/img/triumph_points/light_way.png",
     experience:"/img/triumph_points/experience.png",
     month:"/img/triumph_points/moon.png",
     sun:"/img/triumph_points/sun.png",
