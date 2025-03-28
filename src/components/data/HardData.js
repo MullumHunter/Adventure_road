@@ -23,5 +23,10 @@ export const hardData = {
         id: 4,
         name: 7,
         img: '/img/hards/7.png'
+    },
+    "8":{
+        id: 5,
+        name: 8,
+        img: '/img/hards/8.png'
     }
 }

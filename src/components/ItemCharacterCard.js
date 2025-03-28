@@ -23,6 +23,7 @@ const images = {
     experience:"/img/triumph_points/experience.png",
     month:"/img/triumph_points/moon.png",
     sun:"/img/triumph_points/sun.png",
+    additiona:"/img/triumph_points/additional.png",
 };
 
 function ItemCharacterCard({ type }) {

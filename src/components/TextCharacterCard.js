@@ -20,15 +20,16 @@ function TextCharacterCard({ text }) {
         
         "(antihero_card)": "antihero_card",
         "(hero_card)": "hero_card",
-        "(card_hero)": "card_hero",
         "(dark_way)": "dark_way",
         "(light_way)": "light_way",
         "(experience)": "experience",
         "(month)": "month",
         "(sun)": "sun",
+        
+        "(additiona)":"additiona",
     };
     const parseText = (text) => {
-        return text.split(/(\((?:belief|justice|magic|malefactor|nature|noble|music|dexterity|wisdom|constitution|charisma|strength|intelligence|antihero_card|hero_card|card_hero|dark_way|light_way|experience|month|sun)\)|\n)/g
+        return text.split(/(\((?:belief|justice|magic|malefactor|nature|noble|music|dexterity|wisdom|constitution|charisma|strength|intelligence|antihero_card|hero_card|dark_way|light_way|experience|month|sun|additiona)\)|\n)/g
             )
             .map((part, index) => {
                 if (emojiMap[part]) {

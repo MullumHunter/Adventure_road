@@ -90,4 +90,10 @@ export const prizeData = {
         name: "light_way5",
         img: '/img/triumph_points/light_way5.png'
     },
+    "light_way6": {
+        type: "way",
+        id: 15,
+        name: "light_way6",
+        img: '/img/triumph_points/light_way6.png'
+    },
 }

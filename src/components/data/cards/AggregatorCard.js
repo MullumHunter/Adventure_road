@@ -15,6 +15,7 @@ import {villianCard_ACT_2_NameWind} from "./VillianCard_ACT_2_NameWind";
 import {trialsCard_ACT_3_Original} from "./trialsCard_ACT_3_Original";
 import {trialsCard_ACT_3_NameWind} from "./trialsCard_ACT_3_NameWind";
 import {characterCard_ACT_3_Original} from "./characterCard_ACT_3_Original";
+import {villianCard_ACT_3_Original} from "./VillianCard_ACT_3_Original";
 
 
 export const aggregatorCard = [
@@ -36,5 +37,6 @@ export const aggregatorCard = [
     
     // ...trialsCard_ACT_3_Original,
     // ...trialsCard_ACT_3_NameWind,
-    ...characterCard_ACT_3_Original
+    // ...characterCard_ACT_3_Original,
+    ...villianCard_ACT_3_Original
 ]
