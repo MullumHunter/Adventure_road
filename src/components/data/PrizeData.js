@@ -34,42 +34,60 @@ export const prizeData = {
         type: "way",
         id: 5,
         name: "dark_way4",
-        img: '/img/triumph_points/dark_way1.png'
+        img: '/img/triumph_points/dark_way4.png'
+    },
+    "dark_way5": {
+        type: "way",
+        id: 6,
+        name: "dark_way5",
+        img: '/img/triumph_points/dark_way5.png'
+    },
+    "dark_way6": {
+        type: "way",
+        id: 7,
+        name: "dark_way6",
+        img: '/img/triumph_points/dark_way6.png'
     },
     "experience": {
         type: "experience",
-        id: 6,
+        id: 8,
         name: "experience",
         img: '/img/triumph_points/experience.png'
     },
     "hero_card": {
         type: "card",
-        id: 7,
+        id: 9,
         name: "hero_card",
         img: '/img/triumph_points/hero_card.png'
     },
     "light_way1": {
         type: "way",
-        id: 8,
+        id: 10,
         name: "light_way1",
         img: '/img/triumph_points/light_way1.png'
     },
     "light_way2": {
         type: "way",
-        id: 9,
+        id: 11,
         name: "light_way2",
         img: '/img/triumph_points/light_way2.png'
     },
     "light_way3": {
         type: "way",
-        id: 10,
+        id: 12,
         name: "light_way3",
         img: '/img/triumph_points/light_way3.png'
     },
     "light_way4": {
         type: "way",
-        id: 11,
+        id: 13,
         name: "light_way4",
         img: '/img/triumph_points/light_way4.png'
+    },
+    "light_way5": {
+        type: "way",
+        id: 14,
+        name: "light_way5",
+        img: '/img/triumph_points/light_way5.png'
     },
 }
