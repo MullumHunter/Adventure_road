@@ -23,7 +23,7 @@ export  const villianCard_ACT_3_Original = [
             }
         ,
         
-        text: " Пока это испытание \n не будет преодолено, герои \n выбирают путь (dark_way).",
+        text: "Пока это испытание \n не будет преодолено, герои \n выбирают путь (dark_way).",
         
         requirement: [
             characteristicsData["dexterity"],
