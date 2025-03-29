@@ -12,7 +12,7 @@ function App() {
     
     return (
         <div className="App">
-            <Library itemsLibrary={cardList} />
+            {/*<Library itemsLibrary={cardList} />*/}
             <AggregatorCard/>
         </div>
     );
