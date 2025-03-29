@@ -1,4 +1,20 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 2px;
+    background: #69655E;
+}
 .Item {
-    border: 1px solid #000;
-    background: whitesmoke;
+    padding: 2px 6px;
+    border-radius: 2px;
+    color: #DCB57E;
+    background: #69655E;
+}
+.Item:hover{
+    background: #827C73;
+}
+.Item:active{
+    background: #B6BE59;
+    color: whitesmoke;
 }

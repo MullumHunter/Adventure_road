@@ -4,11 +4,13 @@ function Pop_up_menu({list}) {
     return(
         <div>
             <h3>Названия библиотек:</h3>
-            {Object.keys(list).map((name, index) => (
-                <div className={styles.Item} key={index}>
-                    {name}
-                </div>
-            ))}
+            <div className={styles.Container}>
+                {Object.keys(list).map((name, index) => (
+                    <div className={styles.Item} key={index}>
+                        {name}
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }
