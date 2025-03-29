@@ -1,0 +1,25 @@
+.Button {
+    border-radius: 8px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+    padding: 8px;
+    width: 50%;
+    border: none;
+    transition: all 0.1s ease;
+    cursor: pointer;
+    box-shadow: 4px 6px #413d37;
+    background: #69655E;
+    color: #f8e8d1;
+}
+
+.Button:hover {
+    transform: translate(1px, 1px);
+    background: #5c594f;
+    box-shadow: 2px 4px 0 #2d2b28;
+}
+
+.Button:active {
+    transform: translate(3px, 6px);
+    background: #413d37;
+    box-shadow: 0 0 0 #2d2b28;
+}
