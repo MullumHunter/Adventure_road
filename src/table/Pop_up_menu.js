@@ -21,7 +21,6 @@ function Pop_up_menu({ list }) {
     
     return (
         <div>
-            <h3>Названия библиотек:</h3>
             <div className={styles.Container}>
                 {Object.keys(list).map((name) => (
                     <div

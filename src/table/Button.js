@@ -1,7 +1,7 @@
 import styles from "./styleTable/Button.module.css"
-function Button({text}) {
+function Button({text, onClick}) {
     return(
-        <button className={styles.Button}>Выбрать библиотеку</button>
+        <button className={styles.Button} onClick={onClick}>Выбрать библиотеку</button>
     )
 }
 
