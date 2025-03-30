@@ -18,6 +18,11 @@
     background: #5c594f;
     box-shadow: 2px 4px 0 #2d2b28;
 }
+.active {
+    transform: translate(0.5px, 0.5px);
+    background: #5c594f;
+    box-shadow: 2px 4px 0 #2d2b28;
+}
 
 .Button:active {
     transform: translate(3px, 6px);
