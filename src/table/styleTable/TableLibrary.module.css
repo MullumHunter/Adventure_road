@@ -7,8 +7,11 @@
 
 .Library {
     background-color: #f0f0f0;
-    padding: 20px;
-    border-right: 2px solid #ccc; /* Вертикальная линия */
+    border-right: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    box-shadow: inset -10px 0 15px rgb(204, 204, 204);
 }
 
 .Cards {

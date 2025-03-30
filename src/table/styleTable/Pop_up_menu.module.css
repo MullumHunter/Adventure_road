@@ -5,11 +5,10 @@
     border-radius: 2px;
     overflow: hidden;
     background: #69655E;
-    /*box-shadow: 2px 4px 0 #2d2b28;*/
+    min-width: 220px;
 }
 .Item {
     padding: 2px 6px;
-    /*border-radius: 2px;*/
     color: #DCB57E;
     background: #69655E;
 
