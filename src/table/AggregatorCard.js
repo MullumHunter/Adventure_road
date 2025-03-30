@@ -6,11 +6,18 @@ import {aggregatorCard} from "../components/data/cards/AggregatorCard";
 import {useState} from "react";
 
 function AggregatorCard() {
-    const [isMenuVisible, setIsMenuVisible] = useState(false);
+    const [isMenuVisible, setIsMenuVisible] = useState(() => {
+        const savedState = localStorage.getItem("isMenuVisible");
+        return savedState ? JSON.parse(savedState) : false;
+    });
     
     const toggleMenu = () => {
-        setIsMenuVisible((prev) => !prev);
-        console.log("y hf,jnf.")
+        setIsMenuVisible((prev) => {
+            const newState = !prev;
+            localStorage.setItem("isMenuVisible", JSON.stringify(newState));
+            return newState;
+        });
+        console.log("Menu state toggled");
     };
     
     return(
