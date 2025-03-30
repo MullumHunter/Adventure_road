@@ -3,11 +3,12 @@
     flex-direction: column;
     gap: 4px;
     border-radius: 2px;
+    overflow: hidden;
     background: #69655E;
 }
 .Item {
     padding: 2px 6px;
-    border-radius: 2px;
+    /*border-radius: 2px;*/
     color: #DCB57E;
     background: #69655E;
 
