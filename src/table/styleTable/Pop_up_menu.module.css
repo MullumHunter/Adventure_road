@@ -5,6 +5,7 @@
     border-radius: 2px;
     overflow: hidden;
     background: #69655E;
+    /*box-shadow: 2px 4px 0 #2d2b28;*/
 }
 .Item {
     padding: 2px 6px;

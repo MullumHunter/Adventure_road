@@ -1,0 +1,17 @@
+.TableLibrary {
+    display: grid;
+    grid-template-columns: 20% 1fr; /* Левая колонка 20%, правая — остальное */
+    height: 100vh;
+    width: 100%;
+}
+
+.Library {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-right: 2px solid #ccc; /* Вертикальная линия */
+}
+
+.Cards {
+    background-color: #fff;
+    padding: 20px;
+}
