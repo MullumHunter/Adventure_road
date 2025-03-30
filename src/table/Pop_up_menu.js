@@ -1,17 +1,25 @@
 import styles from "../table/styleTable/Pop_up_menu.module.css"
 import {useState} from "react";
 function Pop_up_menu({list}) {
-    const [selectedLibrary, setSelectedLibrary] = useState(null);
+    const [selectedLibraries, setSelectedLibraries] = useState([]);
     
-    const handleSelect = (library) => { setSelectedLibrary(library) };
+    const handleSelect = (library) => { setSelectedLibraries(library) };
+    
+    const toggleSelect = (library) => {
+        setSelectedLibraries((prevSelected) =>
+            prevSelected.includes(library)
+                ? prevSelected.filter((item) => item !== library)
+                : [...prevSelected, library]
+        );
+    };
     
     return(
         <div>
             <h3>Названия библиотек:</h3>
             <div className={styles.Container}>
                 {Object.keys(list).map((name, index) => (
-                    <div className={`${styles.Item} ${selectedLibrary === name? styles.selected : ``}`}
-                         key={name} onClick={() => handleSelect(name)}>
+                    <div className={`${styles.Item} ${selectedLibraries.includes(name) ? styles.selected : ''}`}
+                         key={name} onClick={() => toggleSelect(name)}>
                         {name}
                     </div>
                 ))}

@@ -10,6 +10,7 @@
     border-radius: 2px;
     color: #DCB57E;
     background: #69655E;
+
 }
 .Item:hover{
     background: #827C73;
@@ -20,5 +21,9 @@
 }
 .selected {
     background: #B6BE59;
+    color: whitesmoke;
+}
+.selected:hover{
+    background: #C5CC7B;
     color: whitesmoke;
 }
