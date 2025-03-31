@@ -18,8 +18,7 @@ function App() {
         <div className="App">
             {/*<Library itemsLibrary={cardList} />*/}
             {/*<AggregatorCard/>*/}
-            {/*<TableLibrary/>*/}
-            <FilterTypeCards typeCards={dataTypeCards}/>
+            <TableLibrary/>
         </div>
     );
 }

@@ -3,6 +3,8 @@ import Pop_up_menu from "./Pop_up_menu";
 import { aggregatorCard } from "../components/data/cards/AggregatorCard";
 import Library from "../components/Library";
 import { useState } from "react";
+import {dataTypeCards} from "../components/data/cards/DataTypeCards";
+import FilterTypeCards from "./FilterTypeCards";
 
 function TableLibrary() {
     const [selectedLibraries, setSelectedLibraries] = useState([]);
@@ -20,14 +22,17 @@ function TableLibrary() {
         }, {});
     
     return (
-        <div className={styles.TableLibrary}>
-            <div className={styles.Library}>
-                <Pop_up_menu list={aggregatorCard} onLibrarySelect={handleLibrarySelect}/>
+            <div className={styles.TableLibrary}>
+                <div className={styles.Library}>
+                    <Pop_up_menu list={aggregatorCard} onLibrarySelect={handleLibrarySelect}/>
+                </div>
+                <>
+                <div className={styles.Cards}>
+                    <FilterTypeCards typeCards={dataTypeCards}/>
+                    <Library itemsLibrary={filteredCards}/>
+                </div>
+                </>
             </div>
-            <div className={styles.Cards}>
-                <Library itemsLibrary={filteredCards} />
-            </div>
-        </div>
     );
 }
 
