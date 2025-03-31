@@ -1,15 +1,16 @@
 import styles from "../table/styleTable/Pop_up_menu.module.css";
 import { useState, useEffect } from "react";
 
-function Pop_up_menu({ list, style }) {
+function Pop_up_menu({ list, style, onLibrarySelect  }) {
     
-    const [selectedLibraries, setSelectedLibraries] = useState(() => {
+    const [selectedLibraries, setSelectedLibraries ] = useState(() => {
         return JSON.parse(localStorage.getItem("selectedLibraries")) || [];
     });
     
     useEffect(() => {
-        localStorage.setItem("selectedLibraries", JSON.stringify(selectedLibraries));
-    }, [selectedLibraries]);
+        localStorage.setItem("selectedLibraries", JSON.stringify(selectedLibraries))
+        onLibrarySelect?.(selectedLibraries);
+    }, [selectedLibraries, onLibrarySelect]);
     
     const toggleSelect = (library) => {
         setSelectedLibraries((prevSelected) =>
