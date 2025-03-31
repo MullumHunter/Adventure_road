@@ -22,7 +22,7 @@ function TableLibrary() {
     return (
         <div className={styles.TableLibrary}>
             <div className={styles.Library}>
-                <Pop_up_menu list={aggregatorCard} onLibrarySelect={handleLibrarySelect} />
+                <Pop_up_menu list={aggregatorCard} onLibrarySelect={handleLibrarySelect}/>
             </div>
             <div className={styles.Cards}>
                 <Library itemsLibrary={filteredCards} />
