@@ -5,8 +5,7 @@ import CardAlly from "./typesCards/CardAlly";
 import CardVillain from "./typesCards/CardVillain";
 
 function CardList({ id, cards, nameLibrary }) {
-    return (<>
-        <h3>{nameLibrary}</h3>
+    return (
         <div className={styles.CardList}>
             {
                 cards.map((card, _) => {
@@ -39,7 +38,7 @@ function CardList({ id, cards, nameLibrary }) {
                                                            hard={card.hard}
                                                            ways={card.ways}
                                                            footer={card.footer}/>
-                    case "villian": return<CardVillain key={card.key}
+                    case "villian": return<CardVillain key={card.id}
                                                        text={card.text}
                                                        requirement={card.requirement}
                                                        img={card.img}
@@ -51,7 +50,7 @@ function CardList({ id, cards, nameLibrary }) {
                 }
             })}
         </div>
-    </>);
+    );
 }
 
 export default CardList;
