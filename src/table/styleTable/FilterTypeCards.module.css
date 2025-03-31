@@ -1,0 +1,45 @@
+.SelectWrapper {
+    position: relative;
+    width: 400px;
+}
+
+.SelectButton {
+    background-color: #4E3629;
+    color: #F5EDE2;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+.SelectButton:hover {
+    background-color: #5E4534;
+}
+
+.OptionsList {
+    background-color: #8C6A5D;
+    color: #F5EDE2;
+    border-radius: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0;
+    max-height: none;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+.OptionItem {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.OptionItem:hover {
+    background-color: #A87C62;
+}
