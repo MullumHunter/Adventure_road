@@ -1,7 +1,7 @@
 import styles from "../table/styleTable/Pop_up_menu.module.css";
 import { useState, useEffect } from "react";
 
-function Pop_up_menu({ list }) {
+function Pop_up_menu({ list, style }) {
     
     const [selectedLibraries, setSelectedLibraries] = useState(() => {
         return JSON.parse(localStorage.getItem("selectedLibraries")) || [];
@@ -21,7 +21,7 @@ function Pop_up_menu({ list }) {
     
     return (
         <div>
-            <div className={styles.Container}>
+            <div className={styles.Container} style={style}>
                 {Object.keys(list).map((name) => (
                     <div
                         className={`${styles.Item} ${selectedLibraries.includes(name) ? styles.selected : ""}`}
