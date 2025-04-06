@@ -4,7 +4,7 @@
 }
 
 .SelectButton {
-    background-color: #4E3629;
+    background-color: #3F3027;
     color: #F5EDE2;
     padding: 10px;
     border-radius: 8px;
@@ -21,7 +21,7 @@
 }
 
 .OptionsList {
-    background-color: #8C6A5D;
+    background-color: #4D3B30;
     color: #F5EDE2;
     border-radius: 8px;
     list-style: none;
@@ -41,5 +41,5 @@
 }
 
 .OptionItem:hover {
-    background-color: #A87C62;
+    background-color: #945B4A;
 }
